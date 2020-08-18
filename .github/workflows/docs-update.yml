@@ -27,6 +27,7 @@ jobs:
     - run: npm install -g vuepress
     - run: npm install vuepress-theme-yilia-plus --save
     - run: vuepress build .
+    - run: cd .vuepress/dist
 
     - name: commit
       run: |
