@@ -24,6 +24,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install -D vuepress
+    - run: npm install -g vuepress
     - run: npm install vuepress-theme-yilia-plus --save
     - run: vuepress build .
