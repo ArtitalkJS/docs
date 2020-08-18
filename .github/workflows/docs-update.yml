@@ -27,19 +27,11 @@ jobs:
     - run: npm install -g vuepress
     - run: npm install vuepress-theme-yilia-plus --save
     - run: vuepress build .
-    - run: cd .vuepress/dist
-    - run: ls
-    - run: pwd
 
     - name: commit
       run: |
         git config --global user.email 1120437716@qq.com
         git config --global user.name Drew233
-        ls
-        pwd
-        cd .vuepress/dist
-        ls
-        pwd
         git add .
         git commit -m "update" -a
 
@@ -47,4 +39,13 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.TOKEN }}
+
+
+    - name: Deploy
+          uses: s0/git-publish-subdir-action@develop
+          env:
+            REPO: self
+            BRANCH: gh-pages
+            FOLDER: .vuepress/dist
+            GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
