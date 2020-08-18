@@ -35,6 +35,11 @@ jobs:
       run: |
         git config --global user.email 1120437716@qq.com
         git config --global user.name Drew233
+        ls
+        pwd
+        cd .vuepress/dist
+        ls
+        pwd
         git add .
         git commit -m "update" -a
 
