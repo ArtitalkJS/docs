@@ -35,18 +35,7 @@ jobs:
       run: npm install
 
     - name: Generate Static Files
-      run: vuepress build .
-
-    - name: Commit
-      run: |
-        git config --global user.email 1120437716@qq.com
-        git config --global user.name Drew233
-        git commit -m "${{ github.event.head_commit.message }}" -a
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.TOKEN }}
+      run: npm run docs:build
 
     - name: Deploy
       uses: s0/git-publish-subdir-action@develop
@@ -55,4 +44,3 @@ jobs:
         BRANCH: gh-pages
         FOLDER: .vuepress/dist
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
-
