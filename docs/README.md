@@ -14,12 +14,11 @@ footer: MIT Licensed | Copyright © 2020-present Uncle_drew
 ---
 <center>
 
-项目地址：[https://github.com/Drew233/Artitalk](https://github.com/Drew233/Artitalk)
+项目地址：[https://github.com/ArtitalkJS/Artitalk](https://github.com/ArtitalkJS/Artitalk)
 
-![](https://img.shields.io/github/stars/Drew233/Artitalk)
-![](https://img.shields.io/npm/dm/artitalk.svg)
-![](https://img.shields.io/npm/v/artitalk.svg)
-![](https://img.shields.io/badge/language-JavaScript-red)
+![stars](https://img.shields.io/github/stars/ArtitalkJS/Artitalk)
+![down](https://img.shields.io/npm/dm/artitalk.svg)
+![npm](https://img.shields.io/npm/v/artitalk.svg)
+![language](https://img.shields.io/badge/language-JavaScript-red)
 
 </center>
-

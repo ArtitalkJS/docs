@@ -18,7 +18,7 @@ module.exports = {
         // 网站成立年份(若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
         since: 2020,
         // 网站作者(关闭请设置为false)
-        author: 'Powered by <a href="https://github.com/Drew233/Artitalk" target="_blank">Artitalk</a>',
+        author: 'Powered by <a href="https://github.com/ArtitalkJS/Artitalk" target="_blank">Artitalk</a>',
         // 访问量统计功能(不蒜子)
         busuanzi: {
           // 是否启用(关闭请设置为false)
@@ -31,7 +31,7 @@ module.exports = {
       { text: '使用文档', link: '/doc/' },
       { text: '配置项', link: '/settings/' },
       { text: '更新日志', link: '/release/' },
-      { text: '项目地址', link: 'https://github.com/Drew233/Artitalk' },
+      { text: '项目地址', link: 'https://github.com/ArtitalkJS/Artitalk' },
       { text: '示例页面', link: 'https://artitalk.js.org/demo.html' }, // 外部链接
       { text: 'FAQ', link: '/faq/' },
       { text: '成功案例', link: '/links/' },
