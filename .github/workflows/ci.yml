@@ -41,8 +41,7 @@ jobs:
       run: |
         git config --global user.email 1120437716@qq.com
         git config --global user.name Drew233
-        git add .
-        git commit -m "update" -a
+        git commit -m "${{ github.event.head_commit.message }}" -a
 
     - name: Push changes
       uses: ad-m/github-push-action@master
