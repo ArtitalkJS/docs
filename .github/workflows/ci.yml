@@ -5,13 +5,14 @@ name: Update docs
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -19,16 +20,24 @@ jobs:
         node-version: [14.x]
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v2
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install -g vuepress
-    - run: npm install vuepress-theme-yilia-plus --save
-    - run: vuepress build .
 
-    - name: commit
+    - name: Install VuePress
+      run: npm install -g vuepress
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Generate Static Files
+      run: vuepress build .
+
+    - name: Commit
       run: |
         git config --global user.email 1120437716@qq.com
         git config --global user.name Drew233
@@ -39,7 +48,6 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.TOKEN }}
-
 
     - name: Deploy
       uses: s0/git-publish-subdir-action@develop
