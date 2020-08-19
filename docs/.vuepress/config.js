@@ -8,7 +8,7 @@ module.exports = {
   output: {
     globalObject: 'this'
   },
-  description: '基于leancloud实现的可实时发布说说/微语的js',
+  description: '基于 leancloud 实现的可实时发布说说/微语的 js',
   themeConfig: {
     sidebarDepth: 2,
     collapsable: true,
@@ -17,11 +17,11 @@ module.exports = {
       footer: {
         // 网站成立年份(若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
         since: 2020,
-        // 网站作者(关闭请设置为false)
+        // 网站作者(关闭请设置为 false)
         author: 'Powered by <a href="https://github.com/ArtitalkJS/Artitalk" target="_blank">Artitalk</a>',
         // 访问量统计功能(不蒜子)
         busuanzi: {
-          // 是否启用(关闭请设置为false)
+          // 是否启用(关闭请设置为 false)
           enable: true
         }
       }
@@ -40,4 +40,7 @@ module.exports = {
     ],
     logo: 'https://cdn.jsdelivr.net/gh/drew233/cdn/logol.png',
   },
+  markdown: {
+    plugins: ['task-lists']
+  }
 }

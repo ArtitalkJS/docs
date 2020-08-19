@@ -48,10 +48,6 @@ kramed:
 
 如果以上都解决不了你的问题，请 [联系](/contact) 我。
 
-## 🚩 未来想要实现的功能
-
-- [] 说说的点赞功能。
-
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-format="fluid"
