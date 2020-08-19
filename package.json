@@ -1,13 +1,14 @@
 {
-  "name": "test",
+  "name": "docs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ArtitalkJS-docs",
+  "repository": "https://github.com/ArtitalkJS/docs",
+  "author": "ArtitalkJS",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "vuepress": "^1.5.3"
   },
