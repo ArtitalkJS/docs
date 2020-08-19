@@ -19,7 +19,7 @@ sidebar: auto
 | Windyan| [说说](https://windyan233.github.io/artitalk/)| Hexo | [matery](https://github.com/blinkfox/hexo-theme-matery)  |
 | XXXZhy| [说说](https://www.xxxzhy.com/shuoshuo/)| Hexo | [Ayer](https://github.com/Shen-Yu/hexo-theme-ayer)  |
 | ChenYFan | [随口胡说](https://blog.cyfan.top/)| Hexo | [fluid](https://github.com/fluid-dev/hexo-theme-fluid) |
-| JalenChuh | [时光机](https://blog.jalenchuh.cn/artitalk/)| Hexo | [cards](https://github.com/ChrAlpha/hexo-theme-cards) |
+| Jalen | [时光机](https://blog.jalenchuh.cn/time)| Gridsome | [gridsome-starter-blog](https://github.com/gridsome/gridsome-starter-blog) |
 | AngelNI  | [碎碎念](https://angelni.github.io/AngelNI.github.io/suisuinian/)| Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)  |
 | 关彳山 | [箋註](https://guanchishan.github.io/artitalk/)| Hexo | [next](https://github.com/iissnan/hexo-theme-next)  |
 | 骑猪看月亮 | [日常唠嗑](https://qzkyl.ml/shuoshuo/)| Hexo | [mellow](https://github.com/codefine/hexo-theme-mellow)  |

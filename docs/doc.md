@@ -136,6 +136,54 @@ Github 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 3. 发布页面
 
+## 🍖 在 Vue 单页项目中使用
+
+例如 vuepree Gridsome 等博客框架是由 Vue 构建的。
+
+新建 Artitalk 页面，添加以下内容（这里建议复制文章页面进行修改）
+
+```vue
+...
+...
+
+<div id="artitalk_main"></div>
+
+...
+...
+
+<script>
+export default {
+  mounted() { // 在 mounted 中进行 js 插入
+    function addScript(url) {
+      var s = document.createElement("script");
+      s.id = "at";
+      url.indexOf("appID") == -1 ? (s.src = url) : (s.innerHTML = url);
+      document.getElementsByTagName("head")[0].appendChild(s);
+    }
+    addScript(
+      "\
+      var appID = 'xxx';\
+      var appKEY = 'xxx';\
+      var severurl = 'xxx';\
+      var username = 'xxx';\
+    "
+    );
+    addScript("https://cdn.jsdelivr.net/npm/jquery");
+    addScript("https://cdn.jsdelivr.net/npm/artitalk");
+  },
+  destroyed() { // 在 destroyed 中进行销毁
+    document
+      .querySelectorAll("#at")
+      .forEach(element => element.parentNode.removeChild(element));
+    delete window.AV;
+  }
+};
+</script>
+
+...
+...
+```
+
 ## 🕸 使用 cdn
 
 ### 🕸 UNPKG
@@ -154,7 +202,7 @@ Github 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 关于版本可查看：[https://unpkg.com/artitalk/](https://unpkg.com/artitalk/)
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/artitalk@版本号 /artitalk.js"></script>
+<script type="text/javascript" src="https://unpkg.com/artitalk@版本号/artitalk.js"></script>
 ```
 
 ### 🕸 JsDelivr
@@ -173,7 +221,7 @@ Github 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 关于版本可查看：[https://cdn.jsdelivr.net/npm/artitalk/](https://cdn.jsdelivr.net/npm/artitalk/)
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/artitalk@版本号 "></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/artitalk@版本号"></script>
 ```
 
 <ins class="adsbygoogle"
@@ -201,4 +249,4 @@ $(document).ready(function () {
 })
 ```
 
-当然你也可以给你跳转说说页面的菜单加一个 target="_blank" 的属性，作为弹出框，也可以暴力解决 pjax 的问题
+当然你也可以给你跳转说说页面的菜单加一个 `target="_blank"` 的属性，作为弹出框，也可以暴力解决 pjax 的问题
