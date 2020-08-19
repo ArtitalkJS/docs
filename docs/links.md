@@ -36,7 +36,10 @@ sidebar: auto
 
 ## 如何加入成功案例
 
-进群私聊群主或管理，清楚的发送自己使用本js的页面链接，框架和主题即可。因为有事可能会出现遗忘所以推荐前往GitHub库提交issue，有模板，跟着模板填完提交issue即可。
+fork文档仓库，按照格式在上面添加然后PR，请自觉往下填写
+
+如：
+| Uncle_drew  | [说说](https://cndrew.cn/shuoshuo/) | Hexo | [Sakura](https://github.com/honjun/hexo-theme-sakura)   |
 
 Artitalk交流群  群号：1104585229
 
