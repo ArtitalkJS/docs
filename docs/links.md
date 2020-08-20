@@ -36,10 +36,12 @@ sidebar: auto
 
 ## 如何加入成功案例
 
-fork文档仓库，按照格式在上面添加然后PR，请自觉往下填写
+fork文档仓库，在`docs/links.md`中按照格式在上面添加然后PR，请自觉往下填写
 
 如：
+```
 | Uncle_drew  | [说说](https://cndrew.cn/shuoshuo/) | Hexo | [Sakura](https://github.com/honjun/hexo-theme-sakura)   |
+```
 
 Artitalk交流群  群号：1104585229
 
