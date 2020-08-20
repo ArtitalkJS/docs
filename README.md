@@ -5,7 +5,7 @@
 ![npm](https://img.shields.io/npm/v/artitalk.svg)
 ![language](https://img.shields.io/badge/language-JavaScript-red)
 
-## 贡献
+## 参与贡献
 
 下载
 

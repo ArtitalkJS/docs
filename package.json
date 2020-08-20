@@ -1,5 +1,6 @@
 {
   "name": "docs",
+  "private": true,
   "version": "1.0.0",
   "description": "ArtitalkJS-docs",
   "repository": "https://github.com/ArtitalkJS/docs",
