@@ -32,10 +32,10 @@ module.exports = {
       { text: '配置项', link: '/settings/' },
       { text: '更新日志', link: '/release/' },
       { text: '项目地址', link: 'https://github.com/ArtitalkJS/Artitalk' },
-      { text: '示例页面', link: 'https://artitalk.js.org/demo.html' }, // 外部链接
+      { text: '示例页面', link: '/demo/' }, // 外部链接
       { text: 'FAQ', link: '/faq/' },
       { text: '成功案例', link: '/links/' },
-      { text: '联系or支持', link: '/contact/' },
+      { text: '联系 or 支持', link: '/contact/' },
       // 下拉列表显示分组
     ],
     logo: 'https://cdn.jsdelivr.net/gh/drew233/cdn/logol.png',
