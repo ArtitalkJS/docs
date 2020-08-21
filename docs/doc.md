@@ -67,7 +67,6 @@ Github 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 ### 🌼 HTML 片段
 
 ```html
-<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 <body>
     <script>
     var appID="";
@@ -84,7 +83,6 @@ Github 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 ::: details 点击查看代码
 
 ```html
-<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 <body>
     {% raw %}
     <script>
@@ -122,7 +120,6 @@ Github 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 ```html
 !!!
-<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 <body>
     <script>
     var appID="";

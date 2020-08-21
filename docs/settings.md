@@ -103,6 +103,12 @@ JS 自带三套表情包（贴吧，bilibili小电视，QQ），分四页，最�
 * 默认值：/Artitalk/Artitalk-mp4/
 * 格式；/Github用户名/仓库名/
 
+### 📌cssurl
+
+* 功能：自定义css接口
+* 默认值：无
+* 格式；链接形式，可根据仓库中的main.css魔改（注意：仓库中的main.css中的color1等换成你所需要的颜色即可）
+
 ## 配置项填写示例
 
 ```html
