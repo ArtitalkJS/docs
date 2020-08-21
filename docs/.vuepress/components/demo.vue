@@ -12,22 +12,22 @@ export default {
       document.getElementsByTagName("head")[0].appendChild(s);
     }
     addScript(
-      "\
-      var appID = 'ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI';\
-      var appKEY = 'nHXLd3N3Jgh460t2iRQKWAtr';\
-      var placeholder1 = 'Demo页密码：123456';\
-      var atupload = 0;\
-      var per = 2;\
-      var slanguage = 'zh';\
-      var bgimg = 'https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp';\
-      var atemoji_array = {\
-        huaji: 'https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_huaji.gif',\
-        baiyan: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png',\
-        bishi: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png',\
-        bizui: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png',\
-        chan: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png'\
-      }\
-    "
+      `
+      var appID = 'ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI';
+      var appKEY = 'nHXLd3N3Jgh460t2iRQKWAtr';
+      var placeholder1 = 'Demo页密码：123456';
+      var atupload = 0;
+      var per = 2;
+      var slanguage = 'zh';
+      var bgimg = 'https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp';
+      var atemoji_array = {
+        huaji: 'https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_huaji.gif',
+        baiyan: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png',
+        bishi: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png',
+        bizui: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png',
+        chan: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png'
+      }
+      `
     );
     addScript("https://cdn.jsdelivr.net/npm/jquery");
     addScript("https://cdn.jsdelivr.net/npm/artitalk");
