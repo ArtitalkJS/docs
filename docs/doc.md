@@ -137,16 +137,12 @@ Github 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 例如 vuepree Gridsome 等博客框架是由 Vue 构建的。
 
-新建 Artitalk 页面，添加以下内容（这里建议复制文章页面进行修改）
+新建 `components/artitalk.vue`，添加以下内容（这里建议复制文章页面进行修改）
 
 ```vue
-...
-...
-
-<div id="artitalk_main"></div>
-
-...
-...
+<template>
+  <div id="artitalk_main" />
+</template>
 
 <script>
 export default {
@@ -155,17 +151,14 @@ export default {
       var s = document.createElement("script");
       s.id = "at";
       url.indexOf("appID") == -1 ? (s.src = url) : (s.innerHTML = url);
-      document.getElementsByTagName("head")[0].appendChild(s);
+      document.head.appendChild(s);
     }
-    addScript(
-      "\
-      var appID = 'xxx';\
-      var appKEY = 'xxx';\
-      var severurl = 'xxx';\
-      var username = 'xxx';\
-    "
-    );
-    addScript("https://cdn.jsdelivr.net/npm/jquery");
+    addScript(`
+      var appID = 'xxx';
+      var appKEY = 'xxx';
+      var severurl = 'xxx';
+      var username = 'xxx';
+    `);
     addScript("https://cdn.jsdelivr.net/npm/artitalk");
   },
   destroyed() { // 在 destroyed 中进行销毁
@@ -176,9 +169,24 @@ export default {
   }
 };
 </script>
+```
 
-...
-...
+如果需要加入 Artitalk 的页面为 `.md`，直接在其中写入 `<artitalkt />` 即可。
+
+如果为 `.vue` 除了写入 `<artitalkt />`，还需要加入以下内容
+
+```diff
+<script>
++import Artitalk from "~/components/Artitalk.vue";
+
+export default {
+  components: {
+-    xxxx
++    xxxx,
++    Artitalk
+  },
+};
+</script>
 ```
 
 ## 🕸 使用 cdn

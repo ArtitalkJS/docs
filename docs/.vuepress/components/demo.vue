@@ -9,10 +9,9 @@ export default {
       var s = document.createElement("script");
       s.id = "at";
       url.indexOf("appID") == -1 ? (s.src = url) : (s.innerHTML = url);
-      document.getElementsByTagName("head")[0].appendChild(s);
+      document.head.appendChild(s);
     }
-    addScript(
-      `
+    addScript(`
       var appID = 'ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI';
       var appKEY = 'nHXLd3N3Jgh460t2iRQKWAtr';
       var placeholder1 = 'Demo页密码：123456';
@@ -27,10 +26,8 @@ export default {
         bizui: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png',
         chan: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png'
       }
-      `
-    );
-    addScript("https://cdn.jsdelivr.net/npm/jquery");
-    addScript("https://cdn.jsdelivr.net/npm/artitalk");
+    `);
+    addScript("https://cdn.jsdelivr.net/gh/ArtitalkJS/Artitalk@52373d8/dist/js/artitalk.min.js");
   },
   destroyed() {
     document
