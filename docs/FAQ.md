@@ -15,11 +15,11 @@ sidebar: auto
 
 ### 🔨 F12 中报错显示 `Uncaught (in promise) Error: Class or object doesn't exists.`
 
-出现此问题的原因是在 leancloud 的存储中，你没有新建名为 `shuoshuo` 的 class
+出现此问题的原因是在 LeanCloud 的存储中，你没有新建名为 `shuoshuo` 的 class
 
 ### 🔨 F12 中报错显示 `Uncaught TypeError: serverURL option is required for apps from CN region`
 
-出现此问题的原因是你使用的是国内版的 leancloud 但是却没有填写 api 域名
+出现此问题的原因是你使用的是国内版的 LeanCloud 但是却没有填写 api 域名
 
 ### 🔨 为什么我确保所有设置都正常的，但是还是不能使用
 

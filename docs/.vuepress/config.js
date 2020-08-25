@@ -8,7 +8,7 @@ module.exports = {
   output: {
     globalObject: 'this'
   },
-  description: '基于 leancloud 实现的可实时发布说说/微语的 js',
+  description: '基于 LeanCloud 实现的可实时发布说说/微语的 js',
   themeConfig: {
     sidebarDepth: 2,
     collapsable: true,

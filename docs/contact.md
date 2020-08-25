@@ -39,10 +39,10 @@ QQ 邮箱：Uncle_drew@qq.com
 ## 👍 特别鸣谢
 
 * 张渔：logo 制作
-* leancloud：提供存储服务
+* LeanCloud：提供存储服务
 * 憧憬博客：说说主要框架的 css
 * VuePress：文档框架
-* Github: 代码存储
+* GitHub: 代码存储
 * JsDelivr && UNPKG：CDN 支持
 * html5up：demo 页框架
 

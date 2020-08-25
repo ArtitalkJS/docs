@@ -7,18 +7,18 @@ sidebar: auto
 
 ### 📌appID
 
-* 对应 leancloud 创建的应用中的 AppID
+* 对应 LeanCloud 创建的应用中的 AppID
 
 ### 📌appKEY
 
-* 对应 leancloud 创建的应用中的 AppKEY
+* 对应 LeanCloud 创建的应用中的 AppKEY
 
 ## 选填
 
 ### 📌severurl
 
-* 如果你是国内版 leancloud 用户，此项必填
-* 对应 leancloud 创建的应用中绑定的 API 域名。
+* 如果你是国内版 LeanCloud 用户，此项必填
+* 对应 LeanCloud 创建的应用中绑定的 API 域名。
 
 ### 📌slanguage
 
@@ -46,7 +46,7 @@ sidebar: auto
 * 默认值：无
 * 参数类型：字符串
 
-默认每条说说的头像按照 leancloud 用户中设置的头像显示，如果发布时在自定义头像 url 中填写自定义头像链接，会取代默认头像
+默认每条说说的头像按照 LeanCloud 用户中设置的头像显示，如果发布时在自定义头像 url 中填写自定义头像链接，会取代默认头像
 
 ### 📌lazy
 
@@ -89,19 +89,19 @@ JS 自带三套表情包（贴吧，bilibili小电视，QQ），分四页，最�
 
 * 功能：自定义存储图片的仓库
 * 默认值：/Artitalk/Artitalk-img/
-* 格式；/Github用户名/仓库名/
+* 格式；/GitHub用户名/仓库名/
   
 ### 📌repo_pt_mp3
 
 * 功能：自定义存储音频的仓库
 * 默认值：/Artitalk/Artitalk-mp3/
-* 格式；/Github用户名/仓库名/
+* 格式；/GitHub用户名/仓库名/
   
 ### 📌repo_pt_mp4
 
 * 功能：自定义存储视频的仓库
 * 默认值：/Artitalk/Artitalk-mp4/
-* 格式；/Github用户名/仓库名/
+* 格式；/GitHub用户名/仓库名/
 
 ### 📌cssurl
 

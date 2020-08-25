@@ -4,14 +4,14 @@ sidebar: auto
 ---
 ## 👀 前言
 
-Github 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
+GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 因为项目初期版本更新较为频繁，所以教程仅作参考，请仔细阅读使用文档，以此为准。
 
 ### 🎉 特性
 
 * 实时发布，点击删除
-* 支持 markdown/html 语法
+* 支持 Markdown/html 语法
 * 支持剪切板图片直接上传，支持点击上传图片，音频，视频
 * 支持点赞
 * 方便引用
@@ -44,21 +44,21 @@ Github 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 ## 🚀 开始使用
 
-### 🌈 leancloud 的相关准备
+### 🌈 LeanCloud 的相关准备
 
-:::tip 🌍 使用国际版的 leancloud
-因为 leancloud 的国内节点需要接入备案域名作为安全域名。明显违背了适用性强的理念。这里推荐大家使用国际版，当然国内版的也可以，但是不要忘了填写 severurl 即可。
+:::tip 🌍 使用国际版的 LeanCloud
+因为 LeanCloud 的国内节点需要接入备案域名作为安全域名。明显违背了适用性强的理念。这里推荐大家使用国际版，当然国内版的也可以，但是不要忘了填写 severurl 即可。
 :::
 
-1. 前往 [leancloud 国际版](https://leancloud.app/)，注册账号。
-2. 注册完成之后根据 leancloud 的提示绑定手机号和邮箱。
+1. 前往 [LeanCloud 国际版](https://LeanCloud.app/)，注册账号。
+2. 注册完成之后根据 LeanCloud 的提示绑定手机号和邮箱。
 3. 绑定完成之后点击`创建应用`，应用名称随意，接着在`结构化数据`中创建 `class`，命名为 `shuoshuo`。
 4. 在你新建的应用中找到`结构化数据`下的`用户`。点击`添加用户`，输入想用的用户名及密码。
 5. 回到`结构化数据`中，点击 `class` 下的 `shuoshuo`。找到权限，在 `Class 访问权限`中将 `add_fields` 以及 `create` 权限设置为指定用户，输入你刚才输入的用户名会自动匹配。为了安全起见，将 `delete` 和 `update` 也设置为跟它们一样的权限。
 6. 点击 `class` 下的 `_User` 添加列，列名称为 `img`，默认值填上你这个账号想要用的头像 url，这一项不进行配置，说说头像会显示为默认头像 —— Artitalk 的 logo。
 7. 在最菜单栏中找到设置-> 应用 keys，记下来 `AppID` 和 `AppKey` ，一会会用。
 8. 最后将 `_User` 中的权限全部调为指定用户，或者数据创建者，为了保证不被篡改用户数据已达到强制发布说说。
-9. 因为 leancloud 功能的限制。若想同时使用 valine 和 artitalk，请在 `class` 中添加名为 `Comment` 的 class。不推荐在存储 valine 的应用中新建名为 `shuoshuo` 的 class，可能会出现神奇的 bug。
+9. 因为 LeanCloud 功能的限制。若想同时使用 valine 和 artitalk，请在 `class` 中添加名为 `Comment` 的 class。不推荐在存储 valine 的应用中新建名为 `shuoshuo` 的 class，可能会出现神奇的 bug。
 
 :::danger ❗ 关于设置权限的这几步
 这几步一定要设置好，才可以保证不被 “闲人” 破解发布说说的验证
@@ -111,7 +111,7 @@ Github 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 ### 🔨 说说内容的修改
 
-在 leancloud 中找到自己添加的名为 `shuoshuo` 的 class，在里面的 `content` 中编辑即可。
+在 LeanCloud 中找到自己添加的名为 `shuoshuo` 的 class，在里面的 `content` 中编辑即可。
 
 ## 🦄 在 Typecho 中使用
 
