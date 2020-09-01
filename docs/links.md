@@ -35,6 +35,7 @@ sidebar: auto
 | WuGenQiang | [微语](https://wugenqiang.github.io/PaperSummary/shuoshuo/)| Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | keep0 | [即刻](https://keep0.cn/shuoshuo/)| Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | 杜老师说 | [说说](https://dusays.com/shuoshuo/) | Hexo | [Volantis](https://github.com/xaoxuu/hexo-theme-volantis) |
+| amtoaer | [说说](https://allwens.work/personal-space/) | Hexo | [Sakura](https://github.com/honjun/hexo-theme-sakura) |
 ## 如何加入成功案例
 
 fork文档仓库，在`docs/links.md`中按照格式在上面添加然后PR，请自觉往下填写
