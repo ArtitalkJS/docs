@@ -11,7 +11,7 @@ sidebar: auto
 
 | 博主 | 链接 | 框架 |主题 |
 | ---- | ---- | ---- | ---- |
-
+| ChenYFan | [随口胡说](https://blog.cyfan.top/%E9%9A%8F%E5%8F%A3%E8%83%A1%E8%AF%B4/) | Hexo | [fluid](https://github.com/fluid-dev/hexo-theme-fluid) |
 
 ## 如何加入成功案例
 
