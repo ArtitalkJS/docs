@@ -6,48 +6,25 @@ sidebar: auto
 
 GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
-因为项目初期版本更新较为频繁，所以教程仅作参考，请仔细阅读使用文档，以此为准。
-
 ### 🎉 特性
 
-* 实时发布，点击删除
+* 增删查改全方面支持
 * 支持 Markdown/html 语法
-* 支持剪切板图片直接上传，支持点击上传图片，音频，视频
 * 支持点赞
-* 方便引用
-
-### ⛵ 关于资源上传的说明
-
-* 图片单张支持最大为 5M
-* 音频单张支持最大为 10M
-* 视频单张支持最大为 25M
-
-* 因为本功能是基于 GitHub 的存储实现的，所以如果上传失败请检查是否可以正常访问 GitHub。
-* 如果您上传的文件较大，请耐心稍等片刻
-
-### 👍 关于点赞功能的说明
-
-1. 点赞依赖于一个新的名为 `star` 的 class，若未手动创建，js 会帮你创建。但是如果考虑到安全问题可以自行修改这个 class 的权限，但是这个 class 不会影响到存储说说的 class，可以放心使用
-2. 默认最初点赞数为 0，对于一人多赞不进行判断（判断了感觉也没什么用。当前点赞机制：不刷新的情况下只允许一个赞）
-3. 首次使用点赞为手动创建 class 时会出现所有点赞数为 `loading` 的情况，这属于正常情况，刷新之后即可正常使用。
 
 ## 🚀 快速使用
 
-部分 Hexo 主题已将本 js 整合进去，可以直接使用。
-感谢以下主题对本 js 的支持~
+部分 Hexo 主题已将本项目整合进去，可以直接使用。
+感谢以下主题对本项目的支持~
 
 ### [hexo-theme-volantis](https://github.com/xaoxuu/hexo-theme-volantis/)
-
-1. 新建页面（注意不要命名为 artitalk，不然会出现重复的 id 导致 js 加载失败）
-2. 页面的 layout 填为 artitalk，comments 设置为 false
-3. 在主题 config 里面填写 artitalk 的相关配置项即可
 
 ## 🚀 开始使用
 
 ### 🌈 LeanCloud 的相关准备
 
-:::tip 🌍 使用国际版的 LeanCloud
-因为 LeanCloud 的国内节点需要接入备案域名作为安全域名。明显违背了适用性强的理念。这里推荐大家使用国际版，当然国内版的也可以，但是不要忘了填写 severurl 即可。
+:::tip 🌍 建议使用国际版的LeanCloud
+因为国际版的leancloud不需要配置serverurl，所以推荐使用国际版，速度没有区别，如果使用国内版的leancloud别忘了填写serverurl即可
 :::
 
 1. 前往 [LeanCloud 国际版](https://LeanCloud.app/)，注册账号。
@@ -55,47 +32,26 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 3. 绑定完成之后点击`创建应用`，应用名称随意，接着在`结构化数据`中创建 `class`，命名为 `shuoshuo`。
 4. 在你新建的应用中找到`结构化数据`下的`用户`。点击`添加用户`，输入想用的用户名及密码。
 5. 回到`结构化数据`中，点击 `class` 下的 `shuoshuo`。找到权限，在 `Class 访问权限`中将 `add_fields` 以及 `create` 权限设置为指定用户，输入你刚才输入的用户名会自动匹配。为了安全起见，将 `delete` 和 `update` 也设置为跟它们一样的权限。
-6. 点击 `class` 下的 `_User` 添加列，列名称为 `img`，默认值填上你这个账号想要用的头像 url，这一项不进行配置，说说头像会显示为默认头像 —— Artitalk 的 logo。
+6. 点击 `class` 下的 `_User` 添加列，列名称为 `img`，默认值填上你这个账号想要用的发布说说的头像url，这一项不进行配置，说说头像会显示为默认头像 —— Artitalk 的 logo。
 7. 在最菜单栏中找到设置-> 应用 keys，记下来 `AppID` 和 `AppKey` ，一会会用。
 8. 最后将 `_User` 中的权限全部调为指定用户，或者数据创建者，为了保证不被篡改用户数据已达到强制发布说说。
-9. 因为 LeanCloud 功能的限制。若想同时使用 valine 和 artitalk，请在 `class` 中添加名为 `Comment` 的 class。不推荐在存储 valine 的应用中新建名为 `shuoshuo` 的 class，可能会出现神奇的 bug。
 
 :::danger ❗ 关于设置权限的这几步
 这几步一定要设置好，才可以保证不被 “闲人” 破解发布说说的验证
 :::
 
-### 🌼 HTML 片段
+### 🌼 开始使用
 
 ```html
-<body>
-    <script>
-    var appID="";
-    var appKEY="";
-    </script>
-    <div id="artitalk_main"></div>
-    <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
-</body>
+<script type="text/javascript" src="https://unpkg.com/artitalk"></script>//引用artitalk
+<div id="artitalk_main"></div>//存放说说的容器
+<script>
+new Artitalk({
+    appId: 'Your leancloud appId',
+    appKey: 'Your leancloud appKey',
+})
+</script>
 ```
-
-如果你加载本 js 后出现一直是加载页面的情况，请检查你的主题是否会对其中内容进行渲染（F12 查看即可）。
-如果是因为渲染导致的问题，请在`<script>`标签外面使用`{% raw %}`
-
-::: details 点击查看代码
-
-```html
-<body>
-    {% raw %}
-    <script>
-    var appID="";
-    var appKEY="";
-    </script>
-    {% endraw %}
-    <div id="artitalk_main"></div>
-    <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
-</body>
-```
-
-:::
 
 ### 🎅 配置项的说明
 
@@ -103,7 +59,7 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 ### 🔨 测试使用
 
-如果上面的配置没有问题，打开你的页面，点击页面右下角的登录输入用户密码后，点击发布说说即可。
+如果上面的配置没有问题，打开你的页面，点击页面右下角的登录输入用户密码后，在输入框中输入说说，点击发布即可。
 
 ### 🔨 说说内容的删除
 
@@ -111,7 +67,7 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 ### 🔨 说说内容的修改
 
-在 LeanCloud 中找到自己添加的名为 `shuoshuo` 的 class，在里面的 `content` 中编辑即可。
+点击想要修改的那条说说的头像，会自动跳转到只有一条提示语以及输入框的界面，在输入框中编辑完之后点击保存即可
 
 ## 🦄 在 Typecho 中使用
 
@@ -120,13 +76,15 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 ```html
 !!!
-<body>
-    <script>
-    var appID="";
-    var appKEY="";
-    </script>
-    <div id="artitalk_main"></div>
+<body> 
     <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+    <div id="artitalk_main"></div>
+    <script>
+    new Artitalk({
+        appId: 'Your leancloud appId',
+        appKey: 'Your leancloud appKey',
+    })
+    </script>
 </body>
 !!!
 ```
@@ -238,20 +196,3 @@ export default {
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
-## 🐷 关于 pjax
-
-因为很多主题使用了 pjax 所以可能导致各种各样的问题出现，这里推荐在使用了 artitalk 的页面同时使用一个自动刷新一次的 js
-
-可以暴力的解决因为 pjax 产生的一些报错
-
-```js
-$(document).ready(function () {
-    if(location.href.indexOf("#reloaded")==-1){
-        location.href=location.href+"#reloaded";
-        location.reload();
-    }
-})
-```
-
-当然你也可以给你跳转说说页面的菜单加一个 `target="_blank"` 的属性，作为弹出框，也可以暴力解决 pjax 的问题

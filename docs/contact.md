@@ -22,19 +22,13 @@ QQ 邮箱：Uncle_drew@qq.com
 ## 捐赠
 
 如果觉得本项目对你有帮助，并且愿意鼓励我，欢迎打赏~谢谢你的支持
+打赏的时候请进行备注“Artitalk”
 
 |  支付宝   | 微信  |
 |  ----  | ----  |
 | <img width="135" src="https://cdn.jsdelivr.net/gh/drew233/cdn/zhifupay.jpg"> | <img width="135" src="https://cdn.jsdelivr.net/gh/drew233/cdn/weixinpay.png"> |
 
-## 🎆 开发者
-
-* [Uncle_drew](https://cndrew.cn/)
-* [cungudafa](https://cungudafa.top/)
-* [todest](https://blog.todest.cn/)
-* [jinqimu](https://jinqimu.xyz/)
-
-如果你对本项目感兴趣并且有心一起完善功能的，欢迎~
+如果你对本项目感兴趣并且有心一起完善功能的，欢迎pr~
 
 ## 👍 特别鸣谢
 
@@ -45,6 +39,7 @@ QQ 邮箱：Uncle_drew@qq.com
 * GitHub: 代码存储
 * JsDelivr && UNPKG：CDN 支持
 * html5up：demo 页框架
+* valine: 一款简便并实用的评论系统，看了valine的代码，受益匪浅，Respect
 
 <ins class="adsbygoogle"
      style="display:block"

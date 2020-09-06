@@ -11,30 +11,7 @@ sidebar: auto
 
 | 博主 | 链接 | 框架 |主题 |
 | ---- | ---- | ---- | ---- |
-| Uncle_drew | [说说](https://cndrew.cn/shuoshuo/) | Hexo | [Sakura](https://github.com/honjun/hexo-theme-sakura) |
-| Jankin | [微语](https://chenzkun.top/shuoshuo/) | Hexo| [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
-| cungudafa | [artitalk](https://cungudafa.top/artitalk/) | Hexo | [Sakura](https://github.com/jerryc127/hexo-theme-butterfly) |
-| GH670 | [说说](https://wblog.tech/photos/Sshuo.html)| Hexo | [Yileas](https://github.com/GH670/yileas) |
-| M@tr1x | [说说](https://www.blog.hackerjerry.top/artalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
-| Windyan| [说说](https://windyan233.github.io/artitalk/)| Hexo | [matery](https://github.com/blinkfox/hexo-theme-matery) |
-| XXXZhy| [说说](https://www.xxxzhy.com/shuoshuo/)| Hexo | [Ayer](https://github.com/Shen-Yu/hexo-theme-ayer) |
-| ChenYFan | [随口胡说](https://blog.cyfan.top/)| Hexo | [fluid](https://github.com/fluid-dev/hexo-theme-fluid) |
-| AngelNI | [碎碎念](https://angelni.github.io/AngelNI.github.io/suisuinian/)| Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
-| 关彳山 | [箋註](https://guanchishan.github.io/artitalk/)| Hexo | [next](https://github.com/iissnan/hexo-theme-next) |
-| 骑猪看月亮 | [日常唠嗑](https://qzkyl.ml/shuoshuo/)| Hexo | [mellow](https://github.com/codefine/hexo-theme-mellow) |
-| 会飞的小弋 | [每日说说](https://lovelijunyi.gitee.io/says/)| Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
-| bynote | [一言](https://bynote.cn/artitalk/)| Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
-| 尼采般地抒情 | [尼采般地随笔抒情](https://blog.wztlink1013.com/essay/)| Hexo | [Volantis](https://github.com/xaoxuu/hexo-theme-volantis) |
-| Flexiston | [说说](https://blog.flexiston.com/say/)| Hexo | [Cards](https://github.com/ChrAlpha/hexo-theme-cards) |
-| Linhk1606 | [时光鸡](https://blog.lhkstudio.me/time-machine/)| Hexo | [Volantis](https://github.com/xaoxuu/hexo-theme-volantis) |
-| Colsrch | [主创说](https://colsrch.top/Creator-said/)| Hexo | [Volantis](https://github.com/xaoxuu/hexo-theme-volantis) |
-| 仅安 | [微语](https://jinan6.vip/shuoshuo/)| Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
-| 辣个人の小窝 | [心情](https://www.xyp9x.com/journals/)| Hexo | [Volantis](https://github.com/xaoxuu/hexo-theme-volantis) |
-| WuGenQiang | [微语](https://wugenqiang.github.io/PaperSummary/shuoshuo/)| Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
-| keep0 | [即刻](https://keep0.cn/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
-| 杜老师说 | [说说](https://dusays.com/shuoshuo/) | Hexo | [Volantis](https://github.com/xaoxuu/hexo-theme-volantis) |
-| amtoaer | [说说](https://allwens.work/personal-space/) | Hexo | [Sakura](https://github.com/honjun/hexo-theme-sakura) |
-| Ray | [闲言碎语](https://raycoder.me/shuoshuo/) | Hugo | [Tony](https://github.com/ThemeTony/hugo-theme-tony) |
+
 
 ## 如何加入成功案例
 
@@ -45,6 +22,14 @@ sidebar: auto
 ```markdown
 | Uncle_drew | [说说](https://cndrew.cn/shuoshuo/) | Hexo | [Sakura](https://github.com/honjun/hexo-theme-sakura) |
 ```
+
+审核成功案例的标准
+1. 是否为使用Artitalk的页面链接
+2. 是否可以稳定访问
+
+满足以上条件的基本会通过审核
+
+## 联系我们
 
 Artitalk 交流群群号：1104585229
 
