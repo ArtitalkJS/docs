@@ -10,7 +10,6 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 * 增删查改全方面支持
 * 支持 Markdown/html 语法
-* 支持点赞
 
 ## 🚀 快速使用
 
