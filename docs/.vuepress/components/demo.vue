@@ -12,22 +12,21 @@ export default {
       document.head.appendChild(s);
     }
     addScript(`
-      var appID = 'ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI';
-      var appKEY = 'nHXLd3N3Jgh460t2iRQKWAtr';
-      var placeholder1 = 'Demo页密码：123456';
-      var atupload = 0;
-      var per = 2;
-      var slanguage = 'zh';
-      var bgimg = 'https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp';
-      var atemoji_array = {
-        huaji: 'https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_huaji.gif',
-        baiyan: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png',
-        bishi: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png',
-        bizui: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png',
-        chan: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png'
-      }
+      new Artitalk({
+          appId: 'Your leancloud appId',
+          appKey: 'Your leancloud appKey',
+          shuoPla: 'Demo页密码：123456',
+          bgImg: 'https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp',
+          atEmoji: {
+              huaji: 'https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_huaji.gif',
+              baiyan: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png',
+              bishi: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png',
+              bizui: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png',
+              chan: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png'          
+          },
+      })
     `);
-    addScript("https://cdn.jsdelivr.net/gh/ArtitalkJS/Artitalk@52373d8/dist/js/artitalk.min.js");
+    addScript("https://cdn.jsdelivr.net/npm/artitalk");
   },
   destroyed() {
     document
