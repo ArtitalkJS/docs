@@ -16,6 +16,7 @@ sidebar: auto
 | Flexiston | [说说](https://blog.flesx.cn/say/) | Hexo | [Cards](https://github.com/ChrAlpha/hexo-theme-cards) |
 | Ray | [闲言碎语](https://raycoder.me/shuoshuo/) | Hugo | [Tony](https://github.com/ThemeTony/hugo-theme-tony) |
 | 笨蛋海绵 | [唠嗑](https://qzkyl.ml/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
+| 仅安 | [微语](https://jinan6.vip/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 
 ## 如何加入成功案例
 
