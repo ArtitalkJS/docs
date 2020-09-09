@@ -17,6 +17,8 @@ sidebar: auto
 | Ray | [闲言碎语](https://raycoder.me/shuoshuo/) | Hugo | [Tony](https://github.com/ThemeTony/hugo-theme-tony) |
 | 笨蛋海绵 | [唠嗑](https://qzkyl.ml/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | 靠谱崔小拽 | [说说](http://cuihuan.net/shuoshuo/) | Hexo | [cuihuan](https://github.com/cuihuan/blog) |
+| 仅安 | [微语](https://jinan6.vip/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
+
 
 ## 如何加入成功案例
 
