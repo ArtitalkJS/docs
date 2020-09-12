@@ -8,13 +8,13 @@ export default {
     function addScript(url) {
       var s = document.createElement("script");
       s.id = "at";
-      url.indexOf("appID") == -1 ? (s.src = url) : (s.innerHTML = url);
+      url.indexOf("appId") == -1 ? (s.src = url) : (s.innerHTML = url);
       document.head.appendChild(s);
     }
     addScript(`
       new Artitalk({
-          appId: 'Your leancloud appId',
-          appKey: 'Your leancloud appKey',
+          appId: 'ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI',
+          appKey: 'nHXLd3N3Jgh460t2iRQKWAtr',
           shuoPla: 'Demo页密码：123456',
           bgImg: 'https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp',
           atEmoji: {
@@ -26,7 +26,6 @@ export default {
           },
       })
     `);
-    addScript("https://cdn.jsdelivr.net/npm/artitalk");
   },
   destroyed() {
     document
