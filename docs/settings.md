@@ -113,6 +113,13 @@ JS 自带三套表情包（贴吧，bilibili小电视，QQ），分四页，最�
 * 格式；链接形式，可根据仓库中的main.css魔改（注意：仓库中的main.css中的color1等换成你所需要的颜色即可）
 * 参数类型: `string`
 
+### 📌atComment
+
+* 功能：评论功能的开关
+* 默认值：1（开启）
+* 可选项：0（关闭），1（开启）
+* 参数类型: `Boolean`
+
 ## 配置项填写示例
 
 ```html
@@ -120,13 +127,6 @@ JS 自带三套表情包（贴吧，bilibili小电视，QQ），分四页，最�
       new Artitalk({
             appId: '123456',
             appKey: '123456',
-            serverURL: 'https://example.com',
-            pageSize: 5,
-            shuoPla: 'abaaba',
-            avatarPla: 'abaaba',
-            motion: 1,
-            bgImg: 'https://example.com/abaaba.jpg',
-            color1: 'red',
             atEmoji: {
                   baiyan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png",
                   bishi: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png",
@@ -141,7 +141,6 @@ JS 自带三套表情包（贴吧，bilibili小电视，QQ），分四页，最�
                   fadai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fadai.png",
                   fanu: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fanu.png",
             },
-            cssUrl: 'https://example.com/abaaba.css'
       })
 </script>
 ```
