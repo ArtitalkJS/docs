@@ -28,6 +28,12 @@ QQ 邮箱：Uncle_drew@qq.com
 |  ----  | ----  |
 | <img width="135" src="https://cdn.jsdelivr.net/gh/drew233/cdn/zhifupay.jpg"> | <img width="135" src="https://cdn.jsdelivr.net/gh/drew233/cdn/weixinpay.png"> |
 
+打赏列表
+| 昵称 | 金额 | 留言 |
+| ---- | ---- | ---- |
+| *哼 | 6.66 | 感谢artitalk~，很好用 |
+| Ayan | 6.66 | AT.nb！ |
+
 如果你对本项目感兴趣并且有心一起完善功能的，欢迎pr~
 
 ## 👍 特别鸣谢
