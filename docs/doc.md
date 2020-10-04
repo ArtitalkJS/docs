@@ -19,6 +19,8 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 ### [hexo-theme-volantis](https://github.com/xaoxuu/hexo-theme-volantis/)
 
+### [hexo-theme-cards](https://github.com/ChrAlpha/hexo-theme-cards)
+
 ## 🚀 开始使用
 
 ### 🌈 LeanCloud 的相关准备
