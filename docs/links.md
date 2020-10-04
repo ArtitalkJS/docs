@@ -22,6 +22,7 @@ sidebar: auto
 | 杜老师说 | [说说](https://dusays.com/shuoshuo/) | Hexo | [Volantis](https://github.com/penndu/hexo-theme-volantis) |
 | Lete乐特 | [唠叨唠叨](https://yilia.lete114.top/say/) | Hexo | [Yilia-Pro](https://github.com/lete114/hexo-theme-yilia-pro) |
 | Small-Rose | [说说](https://zhangxiaocai.cn/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
+| Uki-HG | [说说](https://ishya.top/say/) | Hexo | 自定义主题 |
 
 ## 如何加入成功案例
 
