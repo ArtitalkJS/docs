@@ -20,6 +20,8 @@ sidebar: auto
 | 仅安 | [微语](https://jinan6.vip/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | 無名 | [闲言](https://blog.imsyy.top/talk/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
 | 杜老师说 | [说说](https://dusays.com/shuoshuo/) | Hexo | [Volantis](https://github.com/penndu/hexo-theme-volantis) |
+| Lete乐特 | [唠叨唠叨](https://yilia.lete114.top/say/) | Hexo | [Yilia-Pro](https://github.com/lete114/hexo-theme-yilia-pro) |
+| Small-Rose | [说说](https://zhangxiaocai.cn/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
 
 ## 如何加入成功案例
 
