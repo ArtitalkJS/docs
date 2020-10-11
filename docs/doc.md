@@ -23,6 +23,8 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 ### [hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly)
 
+### [hexo-theme-matery](https://github.com/blinkfox/hexo-theme-matery/)
+
 ## 🚀 开始使用
 
 ### 🌈 LeanCloud 的相关准备
