@@ -14,12 +14,14 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 ## 🚀 快速使用
 
-部分 Hexo 主题已将本项目整合进去，可以直接使用。
+部分主题已将本项目整合进去，可以直接使用。
 感谢以下主题对本项目的支持~
 
 ### [hexo-theme-volantis](https://github.com/xaoxuu/hexo-theme-volantis/)
 
 ### [hexo-theme-cards](https://github.com/ChrAlpha/hexo-theme-cards)
+
+### [hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly)
 
 ## 🚀 开始使用
 
