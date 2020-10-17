@@ -9,7 +9,7 @@
     <script data_ad_client="ca-pub-9420537843748923" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/artitalk"></script>
     <meta name="description" content="基于 LeanCloud 实现的可实时发布说说/微语的 js">
-    <link rel="preload" href="/assets/css/0.styles.103a4447.css" as="style"><link rel="preload" href="/assets/js/app.e156f860.js" as="script"><link rel="preload" href="/assets/js/2.12027dbf.js" as="script"><link rel="preload" href="/assets/js/10.5b4a24d1.js" as="script"><link rel="prefetch" href="/assets/js/11.f879f5de.js"><link rel="prefetch" href="/assets/js/12.df25fcfa.js"><link rel="prefetch" href="/assets/js/13.2bca9b6c.js"><link rel="prefetch" href="/assets/js/14.71f27ad5.js"><link rel="prefetch" href="/assets/js/3.cd93b881.js"><link rel="prefetch" href="/assets/js/4.71c02142.js"><link rel="prefetch" href="/assets/js/5.db396b0e.js"><link rel="prefetch" href="/assets/js/6.6224e671.js"><link rel="prefetch" href="/assets/js/7.cadccbb3.js"><link rel="prefetch" href="/assets/js/8.a2498f48.js"><link rel="prefetch" href="/assets/js/9.7fcf95db.js">
+    <link rel="preload" href="/assets/css/0.styles.103a4447.css" as="style"><link rel="preload" href="/assets/js/app.3896a407.js" as="script"><link rel="preload" href="/assets/js/2.12027dbf.js" as="script"><link rel="preload" href="/assets/js/10.e1211771.js" as="script"><link rel="prefetch" href="/assets/js/11.f879f5de.js"><link rel="prefetch" href="/assets/js/12.df25fcfa.js"><link rel="prefetch" href="/assets/js/13.2bca9b6c.js"><link rel="prefetch" href="/assets/js/14.71f27ad5.js"><link rel="prefetch" href="/assets/js/3.cd93b881.js"><link rel="prefetch" href="/assets/js/4.71c02142.js"><link rel="prefetch" href="/assets/js/5.db396b0e.js"><link rel="prefetch" href="/assets/js/6.6224e671.js"><link rel="prefetch" href="/assets/js/7.cadccbb3.js"><link rel="prefetch" href="/assets/js/8.a2498f48.js"><link rel="prefetch" href="/assets/js/9.7fcf95db.js">
     <link rel="stylesheet" href="/assets/css/0.styles.103a4447.css">
   </head>
   <body>
@@ -72,32 +72,47 @@
     </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
 !!!
-</code></pre></div><ol start="3"><li>发布页面</li></ol> <h2 id="🍖-在-vue-单页项目中使用"><a href="#🍖-在-vue-单页项目中使用" class="header-anchor">#</a> 🍖 在 Vue 单页项目中使用</h2> <p>例如 vuepress Gridsome 等博客框架是由 Vue 构建的。</p> <p>新建 <code>src/components/Artitalk.vue</code>，添加以下内容（这里建议复制文章页面进行修改）</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><ol start="3"><li>发布页面</li></ol> <h2 id="🍖-在-vue-单页项目中使用"><a href="#🍖-在-vue-单页项目中使用" class="header-anchor">#</a> 🍖 在 Vue 单页项目中使用</h2> <p>例如 vuepress Gridsome 等博客框架是由 Vue 构建的。</p> <p>在<code>config.js</code>中引入 artitalk</p> <div class="language- extra-class"><pre class="language-text"><code>module.exports = {
+  ...
+  head: [
+    ['script', {  src: &quot;https://cdn.jsdelivr.net/npm/artitalk&quot; }],
+  ],
+  ...
+}
+</code></pre></div><p>新建 <code>src/components/Artitalk.vue</code>，添加以下内容（这里建议复制文章页面进行修改）</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>artitalk_main<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
-  <span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">// 在 mounted 中进行 js 插入</span>
+  <span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">function</span> <span class="token function">addScript</span><span class="token punctuation">(</span><span class="token parameter">url</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
       <span class="token keyword">var</span> s <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">&quot;script&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
       s<span class="token punctuation">.</span>id <span class="token operator">=</span> <span class="token string">&quot;at&quot;</span><span class="token punctuation">;</span>
-      url<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span><span class="token string">&quot;appID&quot;</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token operator">?</span> <span class="token punctuation">(</span>s<span class="token punctuation">.</span>src <span class="token operator">=</span> url<span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token punctuation">(</span>s<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> url<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      url<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span><span class="token string">&quot;appId&quot;</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token operator">?</span> <span class="token punctuation">(</span>s<span class="token punctuation">.</span>src <span class="token operator">=</span> url<span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token punctuation">(</span>s<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> url<span class="token punctuation">)</span><span class="token punctuation">;</span>
       document<span class="token punctuation">.</span>head<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
-    <span class="token function">addScript</span><span class="token punctuation">(</span><span class="token string">&quot;https://cdn.jsdelivr.net/npm/artitalk&quot;</span><span class="token punctuation">)</span>
     <span class="token function">addScript</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
-    new Artitalk({
-        appId: '', // Your leancloud appId
-        appKey: '' // Your leancloud appKey
-    })
-    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+      new Artitalk({
+          appId: 'ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI',
+          appKey: 'nHXLd3N3Jgh460t2iRQKWAtr',
+          shuoPla: 'Demo页密码：123456',
+          bgImg: 'https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp',
+          atEmoji: {
+              huaji: 'https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_huaji.gif',
+              baiyan: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png',
+              bishi: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png',
+              bizui: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png',
+              chan: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png'          
+          },
+      })
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  <span class="token function">destroyed</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">// 在 destroyed 中进行销毁</span>
+  <span class="token function">destroyed</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     document
       <span class="token punctuation">.</span><span class="token function">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">&quot;#at&quot;</span><span class="token punctuation">)</span>
-      <span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token parameter">element</span> <span class="token operator">=&gt;</span> element<span class="token punctuation">.</span>parentNode<span class="token punctuation">.</span><span class="token function">removeChild</span><span class="token punctuation">(</span>element<span class="token punctuation">)</span><span class="token punctuation">)</span>
-    <span class="token keyword">delete</span> window<span class="token punctuation">.</span><span class="token constant">AV</span>
+      <span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token parameter">element</span> <span class="token operator">=&gt;</span> element<span class="token punctuation">.</span>parentNode<span class="token punctuation">.</span><span class="token function">removeChild</span><span class="token punctuation">(</span>element<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">delete</span> window<span class="token punctuation">.</span><span class="token constant">AV</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
@@ -127,6 +142,6 @@ export default {
     本站访客数
     <span id="busuanzi_value_site_uv"></span>人
   </span></div></div></main><div class="global-ui"></div></div>
-    <script src="/assets/js/app.e156f860.js" defer></script><script src="/assets/js/2.12027dbf.js" defer></script><script src="/assets/js/10.5b4a24d1.js" defer></script>
+    <script src="/assets/js/app.3896a407.js" defer></script><script src="/assets/js/2.12027dbf.js" defer></script><script src="/assets/js/10.e1211771.js" defer></script>
   </body>
 </html>
