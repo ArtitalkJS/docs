@@ -108,9 +108,9 @@ new Artitalk({
 
 ## 🍖 在 Vue 单页项目中使用
 
-例如 vuepree Gridsome 等博客框架是由 Vue 构建的。
+例如 vuepress Gridsome 等博客框架是由 Vue 构建的。
 
-新建 `components/artitalk.vue`，添加以下内容（这里建议复制文章页面进行修改）
+新建 `src/components/Artitalk.vue`，添加以下内容（这里建议复制文章页面进行修改）
 
 ```vue
 <template>
@@ -144,13 +144,13 @@ export default {
 </script>
 ```
 
-如果需要加入 Artitalk 的页面为 `.md`，直接在其中写入 `<artitalkt />` 即可。
+如果需要加入 Artitalk 的页面为 `.md`，直接在其中写入 `<Artitalk />` 即可。
 
-如果为 `.vue` 除了写入 `<artitalkt />`，还需要加入以下内容
+如果为 `.vue` 除了写入 `<Artitalk />`，还需要加入以下内容
 
 ```diff
 <script>
-+import Artitalk from "~/components/Artitalk.vue";
++import Artitalk from "@/components/Artitalk.vue";
 
 export default {
   components: {
