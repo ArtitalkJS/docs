@@ -54,8 +54,8 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 <div id="artitalk_main"></div>//存放说说的容器
 <script>
 new Artitalk({
-    appId: 'Your leancloud appId',
-    appKey: 'Your leancloud appKey',
+    appId: '', // Your leancloud appId
+    appKey: '' // Your leancloud appKey
 })
 </script>
 ```
@@ -96,8 +96,8 @@ new Artitalk({
     <div id="artitalk_main"></div>
     <script>
     new Artitalk({
-        appId: 'Your leancloud appId',
-        appKey: 'Your leancloud appKey',
+        appId: '', // Your leancloud appId
+        appKey: '' // Your leancloud appKey
     })
     </script>
 </body>
@@ -126,19 +126,19 @@ export default {
       url.indexOf("appID") == -1 ? (s.src = url) : (s.innerHTML = url);
       document.head.appendChild(s);
     }
+    addScript("https://cdn.jsdelivr.net/npm/artitalk")
     addScript(`
-      var appID = 'xxx';
-      var appKEY = 'xxx';
-      var severurl = 'xxx';
-      var username = 'xxx';
-    `);
-    addScript("https://cdn.jsdelivr.net/npm/artitalk");
+    new Artitalk({
+        appId: '', // Your leancloud appId
+        appKey: '' // Your leancloud appKey
+    })
+    `)
   },
   destroyed() { // 在 destroyed 中进行销毁
     document
       .querySelectorAll("#at")
-      .forEach(element => element.parentNode.removeChild(element));
-    delete window.AV;
+      .forEach(element => element.parentNode.removeChild(element))
+    delete window.AV
   }
 };
 </script>
