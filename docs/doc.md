@@ -112,6 +112,17 @@ new Artitalk({
 
 例如 vuepress Gridsome 等博客框架是由 Vue 构建的。
 
+在`config.js`中引入 artitalk
+```
+module.exports = {
+  ...
+  head: [
+    ['script', {  src: "https://cdn.jsdelivr.net/npm/artitalk" }],
+  ],
+  ...
+}
+```
+
 新建 `src/components/Artitalk.vue`，添加以下内容（这里建议复制文章页面进行修改）
 
 ```vue
@@ -121,26 +132,34 @@ new Artitalk({
 
 <script>
 export default {
-  mounted() { // 在 mounted 中进行 js 插入
+  mounted() {
     function addScript(url) {
       var s = document.createElement("script");
       s.id = "at";
-      url.indexOf("appID") == -1 ? (s.src = url) : (s.innerHTML = url);
+      url.indexOf("appId") == -1 ? (s.src = url) : (s.innerHTML = url);
       document.head.appendChild(s);
     }
-    addScript("https://cdn.jsdelivr.net/npm/artitalk")
     addScript(`
-    new Artitalk({
-        appId: '', // Your leancloud appId
-        appKey: '' // Your leancloud appKey
-    })
-    `)
+      new Artitalk({
+          appId: 'ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI',
+          appKey: 'nHXLd3N3Jgh460t2iRQKWAtr',
+          shuoPla: 'Demo页密码：123456',
+          bgImg: 'https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp',
+          atEmoji: {
+              huaji: 'https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/smilies/icon_huaji.gif',
+              baiyan: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png',
+              bishi: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png',
+              bizui: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png',
+              chan: 'https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png'          
+          },
+      })
+    `);
   },
-  destroyed() { // 在 destroyed 中进行销毁
+  destroyed() {
     document
       .querySelectorAll("#at")
-      .forEach(element => element.parentNode.removeChild(element))
-    delete window.AV
+      .forEach(element => element.parentNode.removeChild(element));
+    delete window.AV;
   }
 };
 </script>
