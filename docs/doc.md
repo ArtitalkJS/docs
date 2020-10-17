@@ -50,8 +50,10 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 ### 🌼 开始使用
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/artitalk"></script>//引用artitalk
-<div id="artitalk_main"></div>//存放说说的容器
+<!-- 引用artitalk -->
+<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+<!-- 存放说说的容器 -->
+<div id="artitalk_main"></div>
 <script>
 new Artitalk({
     appId: '', // Your leancloud appId
