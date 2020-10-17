@@ -154,8 +154,6 @@ export default {
 
 export default {
   components: {
--    xxxx
-+    xxxx,
 +    Artitalk
   },
 };
