@@ -113,13 +113,13 @@ new Artitalk({
 例如 vuepress Gridsome 等博客框架是由 Vue 构建的。
 
 在`config.js`中引入 artitalk
-```
+```js
 module.exports = {
-  ...
+  // ...
   head: [
     ['script', {  src: "https://cdn.jsdelivr.net/npm/artitalk" }],
   ],
-  ...
+  // ...
 }
 ```
 
