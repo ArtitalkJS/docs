@@ -123,7 +123,7 @@ module.exports = {
 }
 ```
 
-新建 `src/components/Artitalk.vue`，添加以下内容（这里建议复制文章页面进行修改）
+新建 `src/components/Artitalk.vue`（VuePress: `.vuepress/components/Artitalk.vue`），添加以下内容
 
 ```vue
 <template>
@@ -165,9 +165,9 @@ export default {
 </script>
 ```
 
-如果需要加入 Artitalk 的页面为 `.md`，直接在其中写入 `<Artitalk />` 即可。
+如果需要加入 Artitalk 的页面为 `.md`（例如VuePress），直接在其中写入 `<Artitalk />` 即可。
 
-如果为 `.vue` 除了写入 `<Artitalk />`，还需要加入以下内容
+如果为 `.vue` （开发项目） 除了写入 `<Artitalk />`，还需要加入以下内容
 
 ```diff
 <script>
