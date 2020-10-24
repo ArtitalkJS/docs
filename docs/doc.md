@@ -25,12 +25,14 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 ### [hexo-theme-matery](https://github.com/blinkfox/hexo-theme-matery/)
 
+### [gridea-theme-dark](https://github.com/jalenchuh/gridea-theme-dark)
+
 ## 🚀 开始使用
 
 ### 🌈 LeanCloud 的相关准备
 
-:::tip 🌍 建议使用国际版的LeanCloud
-因为国际版的leancloud不需要配置serverurl，所以推荐使用国际版，速度没有区别，如果使用国内版的leancloud别忘了填写serverurl即可
+:::tip 🌍 建议使用国际版的 LeanCloud
+因为国际版的 leancloud 不需要配置 serverurl，所以推荐使用国际版，速度没有区别，如果使用国内版的 leancloud 别忘了填写 serverurl 即可
 :::
 
 1. 前往 [LeanCloud 国际版](https://LeanCloud.app/)，注册账号。
@@ -50,7 +52,7 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 ### 🌼 开始使用
 
 ```html
-<!-- 引用artitalk -->
+<!-- 引用 artitalk -->
 <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
 <!-- 存放说说的容器 -->
 <div id="artitalk_main"></div>
@@ -78,13 +80,13 @@ new Artitalk({
 
 点击想要修改的那条说说的头像，会自动跳转到只有一条提示语以及输入框的界面，在输入框中编辑完之后点击保存即可
 
-注：说说内容的修改与删除在leancloud后台也可进行操作
+注：说说内容的修改与删除在 leancloud 后台也可进行操作
 
 ### 🔨 评论的使用
 
 点击每条说说右下角的评论图标即可查看针对本条说说的评论或者对本条说说发起评论，再次点击会刷新页面已达到返回的作用
 
-填写邮箱以获得gravatar的头像
+填写邮箱以获得 gravatar 的头像
 
 ## 🦄 在 Typecho 中使用
 
@@ -165,7 +167,7 @@ export default {
 </script>
 ```
 
-如果需要加入 Artitalk 的页面为 `.md`（例如VuePress），直接在其中写入 `<Artitalk />` 即可。
+如果需要加入 Artitalk 的页面为 `.md`（例如 VuePress），直接在其中写入 `<Artitalk />` 即可。
 
 如果为 `.vue` （开发项目） 除了写入 `<Artitalk />`，还需要加入以下内容
 
