@@ -16,11 +16,15 @@ sidebar: auto
 | Flexiston | [说说](https://blog.flesx.cn/say/) | Hexo | [Cards](https://github.com/ChrAlpha/hexo-theme-cards) |
 | Ray | [闲言碎语](https://raycoder.me/shuoshuo/) | Hugo | [Tony](https://github.com/ThemeTony/hugo-theme-tony) |
 | 笨蛋海绵 | [唠嗑](https://qzkyl.ml/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
+| 仅安 | [微语](https://jinan6.vip/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | 靠谱崔小拽 | [说说](http://cuihuan.net/shuoshuo/) | Hexo | [cuihuan](https://github.com/cuihuan/blog) |
 | 無名 | [闲言](https://blog.imsyy.top/talk/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
 | 杜老师说 | [说说](https://dusays.com/shuoshuo/) | Hexo | [Volantis](https://github.com/penndu/hexo-theme-volantis) |
 | Lete乐特 | [唠叨唠叨](https://yilia.lete114.top/say/) | Hexo | [Yilia-Pro](https://github.com/lete114/hexo-theme-yilia-pro) |
 | Small-Rose | [说说](https://zhangxiaocai.cn/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
+| Uki-HG | [说说](https://ishya.top/say/) | Hexo | [Next]() |
+
+
 
 ## 如何加入成功案例
 
