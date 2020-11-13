@@ -23,7 +23,7 @@ sidebar: auto
 | Lete乐特 | [唠叨唠叨](https://yilia.lete114.top/say/) | Hexo | [Yilia-Pro](https://github.com/lete114/hexo-theme-yilia-pro) |
 | Small-Rose | [说说](https://zhangxiaocai.cn/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
 | Uki-HG | [说说](https://ishya.top/say/) | Hexo | [Next]() |
-
+| 凡尘纪 | [说说](https://hesifan.top/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
 
 
 ## 如何加入成功案例
