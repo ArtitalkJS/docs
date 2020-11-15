@@ -24,6 +24,7 @@ sidebar: auto
 | Small-Rose | [说说](https://zhangxiaocai.cn/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
 | Uki-HG | [说说](https://ishya.top/say/) | Hexo | [Next]() |
 | 凡尘纪 | [说说](https://hesifan.top/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
+| FMKLI | [说说](https://blog.fmkli.ga/index.php/talk.html) | typecho | [Breeze](https://github.com/GongZhengke/Breeze) |
 
 
 ## 如何加入成功案例
