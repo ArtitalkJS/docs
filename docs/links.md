@@ -12,16 +12,22 @@ sidebar: auto
 | 博主 | 链接 | 框架 |主题 |
 | ---- | ---- | ---- | ---- |
 | ChenYFan | [随口胡说](https://blog.cyfan.top/%E9%9A%8F%E5%8F%A3%E8%83%A1%E8%AF%B4/) | Hexo | [fluid](https://github.com/fluid-dev/hexo-theme-fluid) |
-| Colsrch | [主创说](https://colsrch.top/Creator-said/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
+| Colsrch | [主创说](https://colsrch.cn/Creator-said/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
 | Flexiston | [说说](https://blog.flesx.cn/say/) | Hexo | [Cards](https://github.com/ChrAlpha/hexo-theme-cards) |
 | Ray | [闲言碎语](https://raycoder.me/shuoshuo/) | Hugo | [Tony](https://github.com/ThemeTony/hugo-theme-tony) |
 | 笨蛋海绵 | [唠嗑](https://qzkyl.ml/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
-| 靠谱崔小拽 | [说说](http://cuihuan.net/shuoshuo/) | Hexo | [cuihuan](https://github.com/cuihuan/blog) |
 | 仅安 | [微语](https://jinan6.vip/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
+| 靠谱崔小拽 | [说说](http://cuihuan.net/shuoshuo/) | Hexo | [cuihuan](https://github.com/cuihuan/blog) |
 | 無名 | [闲言](https://blog.imsyy.top/talk/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
 | 杜老师说 | [说说](https://dusays.com/shuoshuo/) | Hexo | [Volantis](https://github.com/penndu/hexo-theme-volantis) |
 | Lete乐特 | [唠叨唠叨](https://yilia.lete114.top/say/) | Hexo | [Yilia-Pro](https://github.com/lete114/hexo-theme-yilia-pro) |
 | Small-Rose | [说说](https://zhangxiaocai.cn/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
+| Uki-HG | [说说](https://ishya.top/say/) | Hexo | [Next]() |
+| 凡尘纪 | [说说](https://hesifan.top/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
+| FMKLI | [说说](https://blog.fmkli.ga/index.php/talk.html) | typecho | [Breeze](https://github.com/GongZhengke/Breeze) |
+| Ender's Blog | [说说](https://code004accepted.github.io/shuoshuo/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
+| 泠汐阁 | [说说](https://blog.qingxu.live/talk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
+
 
 ## 如何加入成功案例
 
