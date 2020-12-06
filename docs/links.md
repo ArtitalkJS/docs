@@ -28,6 +28,7 @@ sidebar: auto
 | Ender's Blog | [说说](https://code004accepted.github.io/shuoshuo/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
 | 泠汐阁 | [说说](https://blog.qingxu.live/talk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | HiFun Blog | [说说](https://hifun.now.sh/talk/) | Hexo | [fluid](https://github.com/fluid-dev/hexo-theme-fluid) |
+| Weidows | [⭐ 陈茶酱醋 ⭐](https://weidows.github.io/artitalk/older_artitalk) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 
 
 ## 如何加入成功案例
