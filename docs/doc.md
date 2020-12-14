@@ -31,7 +31,11 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 ### 🌈 LeanCloud 的相关准备
 
-:::tip 🌍 建议使用国际版的 LeanCloud
+:::tip 
+🎃 与Valine在同一个页面使用
+如果迫切需要将Artitalk与Valine在同一个页面使用，可以通过Artitalk与Valine使用同一个leancloud的应用来解决。
+
+🌍 建议使用国际版的 LeanCloud
 因为国际版的 leancloud 不需要配置 serverurl，所以推荐使用国际版，速度没有区别，如果使用国内版的 leancloud 别忘了填写 serverurl 即可
 :::
 
