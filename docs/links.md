@@ -26,7 +26,7 @@ sidebar: auto
 | 凡尘纪 | [说说](https://hesifan.top/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
 | FMKLI | [说说](https://blog.fmkli.ga/index.php/talk.html) | typecho | [Breeze](https://github.com/GongZhengke/Breeze) |
 | Ender's Blog | [说说](https://code004accepted.github.io/shuoshuo/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
-| 泠汐阁 | [说说](https://blog.qingxu.live/talk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
+| Qingxu | [说说](https://blog.qingxu.live/talk/) | Hugo | [hello-friend](https://github.com/panr/hugo-theme-hello-friend) |
 | YFun's Blog | [说说](https://www.yfun.top/talk/) | Hexo | [fluid](https://github.com/fluid-dev/hexo-theme-fluid) |
 | Weidows | [⭐ 陈茶酱醋 ⭐](https://weidows.github.io/artitalk/older_artitalk) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 
