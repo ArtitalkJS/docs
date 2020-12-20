@@ -24,7 +24,7 @@ sidebar: auto
 | Small-Rose | [说说](https://zhangxiaocai.cn/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
 | Uki-HG | [说说](https://ishya.top/say/) | Hexo | [Next]() |
 | 凡尘纪 | [说说](https://hesifan.top/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
-| FMKLI | [说说](https://blog.fmkli.ga/说说) | Hexo | [stun](https://github.com/liuyib/hexo-theme-stun/) |
+| FMKLI | [说说](https://blog.fmkli.ga/say) | Hexo | [stun](https://github.com/liuyib/hexo-theme-stun/) |
 | Ender's Blog | [说说](https://code004accepted.github.io/shuoshuo/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
 | Qingxu | [说说](https://blog.qingxu.live/talk/) | Hugo | [hello-friend](https://github.com/panr/hugo-theme-hello-friend) |
 | YFun's Blog | [说说](https://www.yfun.top/talk/) | Hexo | [fluid](https://github.com/fluid-dev/hexo-theme-fluid) |
