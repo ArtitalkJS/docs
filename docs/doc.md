@@ -32,11 +32,13 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 ### 🌈 LeanCloud 的相关准备
 
 :::tip 
-🎃 与Valine在同一个页面使用
-如果迫切需要将Artitalk与Valine在同一个页面使用，可以通过Artitalk与Valine使用同一个leancloud的应用来解决。
+**🎃 与 Valine 在同一个页面使用**
 
-🌍 建议使用国际版的 LeanCloud
-因为国际版的 leancloud 不需要配置 serverurl，所以推荐使用国际版，速度没有区别，如果使用国内版的 leancloud 别忘了填写 serverurl 即可
+如果迫切需要将 Artitalk 与 Valine 在同一个页面使用，可以通过 Artitalk 与 Valine 使用同一个 LeanCloud 的应用来解决。
+
+**🌍 建议使用国际版的 LeanCloud**
+
+因为国际版的 LeanCloud 不需要配置 serverurl，所以推荐使用国际版，速度没有区别，如果使用国内版的 LeanCloud 别忘了填写 serverurl 即可
 :::
 
 1. 前往 [LeanCloud 国际版](https://LeanCloud.app/)，注册账号。
@@ -62,8 +64,8 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 <div id="artitalk_main"></div>
 <script>
 new Artitalk({
-    appId: '', // Your leancloud appId
-    appKey: '' // Your leancloud appKey
+    appId: '', // Your LeanCloud appId
+    appKey: '' // Your LeanCloud appKey
 })
 </script>
 ```
@@ -84,7 +86,7 @@ new Artitalk({
 
 点击想要修改的那条说说的头像，会自动跳转到只有一条提示语以及输入框的界面，在输入框中编辑完之后点击保存即可
 
-注：说说内容的修改与删除在 leancloud 后台也可进行操作
+注：说说内容的修改与删除在 LeanCloud 后台也可进行操作
 
 ### 🔨 评论的使用
 
@@ -104,8 +106,8 @@ new Artitalk({
     <div id="artitalk_main"></div>
     <script>
     new Artitalk({
-        appId: '', // Your leancloud appId
-        appKey: '' // Your leancloud appKey
+        appId: '', // Your LeanCloud appId
+        appKey: '' // Your LeanCloud appKey
     })
     </script>
 </body>
