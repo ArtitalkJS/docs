@@ -29,6 +29,7 @@ sidebar: auto
 | Qingxu | [说说](https://blog.qingxu.live/talk/) | Hugo | [hello-friend](https://github.com/panr/hugo-theme-hello-friend) |
 | YFun's Blog | [说说](https://www.yfun.top/talk/) | Hexo | [fluid](https://github.com/fluid-dev/hexo-theme-fluid) |
 | Weidows | [⭐ 陈茶酱醋 ⭐](https://weidows.github.io/artitalk/older_artitalk) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
+| Langkye | [说说](https://langkye.gitee.io/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 
 
 ## 如何加入成功案例
