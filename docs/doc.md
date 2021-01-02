@@ -120,7 +120,8 @@ new Artitalk({
 
 例如 vuepress Gridsome 等博客框架是由 Vue 构建的。
 
-在`config.js`中引入 artitalk
+:::tip  在Gridsome中的准备
+在`gridsome.config.js`中引入 artitalk
 ```js
 module.exports = {
   // ...
@@ -130,6 +131,30 @@ module.exports = {
   // ...
 }
 ```
+:::
+
+:::tip  在普通Vue项目中的准备
+在`<YOUR_PROJ>/public/index.html`中引入 artitalk
+```diff
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
++    <script src="https://cdn.jsdelivr.net/npm/artitalk"></script>
+  </body>
+</html>
+```
+:::
 
 新建 `src/components/Artitalk.vue`（VuePress: `.vuepress/components/Artitalk.vue`），添加以下内容
 
