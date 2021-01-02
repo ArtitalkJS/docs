@@ -9,7 +9,7 @@
     <script data_ad_client="ca-pub-9420537843748923" async="true" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/artitalk"></script>
     <meta name="description" content="基于 LeanCloud 实现的可实时发布说说/微语的 js">
-    <link rel="preload" href="/assets/css/0.styles.103a4447.css" as="style"><link rel="preload" href="/assets/js/app.60d7ced6.js" as="script"><link rel="preload" href="/assets/js/2.12027dbf.js" as="script"><link rel="preload" href="/assets/js/10.b08b34a1.js" as="script"><link rel="prefetch" href="/assets/js/11.c13e93aa.js"><link rel="prefetch" href="/assets/js/12.df25fcfa.js"><link rel="prefetch" href="/assets/js/13.d682617c.js"><link rel="prefetch" href="/assets/js/14.9a2cb9d7.js"><link rel="prefetch" href="/assets/js/3.cd93b881.js"><link rel="prefetch" href="/assets/js/4.71c02142.js"><link rel="prefetch" href="/assets/js/5.db396b0e.js"><link rel="prefetch" href="/assets/js/6.6224e671.js"><link rel="prefetch" href="/assets/js/7.cadccbb3.js"><link rel="prefetch" href="/assets/js/8.c15b6a1e.js"><link rel="prefetch" href="/assets/js/9.7fcf95db.js">
+    <link rel="preload" href="/assets/css/0.styles.103a4447.css" as="style"><link rel="preload" href="/assets/js/app.858b68df.js" as="script"><link rel="preload" href="/assets/js/2.12027dbf.js" as="script"><link rel="preload" href="/assets/js/10.f0a5646f.js" as="script"><link rel="prefetch" href="/assets/js/11.c13e93aa.js"><link rel="prefetch" href="/assets/js/12.df25fcfa.js"><link rel="prefetch" href="/assets/js/13.d682617c.js"><link rel="prefetch" href="/assets/js/14.9a2cb9d7.js"><link rel="prefetch" href="/assets/js/3.cd93b881.js"><link rel="prefetch" href="/assets/js/4.71c02142.js"><link rel="prefetch" href="/assets/js/5.db396b0e.js"><link rel="prefetch" href="/assets/js/6.6224e671.js"><link rel="prefetch" href="/assets/js/7.cadccbb3.js"><link rel="prefetch" href="/assets/js/8.c15b6a1e.js"><link rel="prefetch" href="/assets/js/9.7fcf95db.js">
     <link rel="stylesheet" href="/assets/css/0.styles.103a4447.css">
   </head>
   <body>
@@ -72,14 +72,31 @@
     </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
 !!!
-</code></pre></div><ol start="3"><li>发布页面</li></ol> <h2 id="🍖-在-vue-单页项目中使用"><a href="#🍖-在-vue-单页项目中使用" class="header-anchor">#</a> 🍖 在 Vue 单页项目中使用</h2> <p>例如 vuepress Gridsome 等博客框架是由 Vue 构建的。</p> <p>在<code>config.js</code>中引入 artitalk</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+</code></pre></div><ol start="3"><li>发布页面</li></ol> <h2 id="🍖-在-vue-单页项目中使用"><a href="#🍖-在-vue-单页项目中使用" class="header-anchor">#</a> 🍖 在 Vue 单页项目中使用</h2> <p>例如 vuepress Gridsome 等博客框架是由 Vue 构建的。</p> <div class="custom-block tip"><p class="custom-block-title">在Gridsome中的准备</p> <p>在<code>gridsome.config.js</code>中引入 artitalk</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token comment">// ...</span>
   head<span class="token operator">:</span> <span class="token punctuation">[</span>
     <span class="token punctuation">[</span><span class="token string">'script'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>  src<span class="token operator">:</span> <span class="token string">&quot;https://cdn.jsdelivr.net/npm/artitalk&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
   <span class="token punctuation">]</span><span class="token punctuation">,</span>
   <span class="token comment">// ...</span>
 <span class="token punctuation">}</span>
-</code></pre></div><p>新建 <code>src/components/Artitalk.vue</code>（VuePress: <code>.vuepress/components/Artitalk.vue</code>），添加以下内容</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div></div> <div class="custom-block tip"><p class="custom-block-title">在普通Vue项目中的准备</p> <p>在<code>&lt;YOUR_PROJ&gt;/public/index.html</code>中引入 artitalk</p> <div class="language-diff extra-class"><pre class="language-diff"><code><span class="token deleted-arrow deleted"><span class="token prefix deleted">&lt;</span><span class="token line">!DOCTYPE html&gt;
+</span><span class="token prefix deleted">&lt;</span><span class="token line">html lang=&quot;en&quot;&gt;
+</span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line"> &lt;head&gt;
+</span><span class="token prefix unchanged"> </span><span class="token line">   &lt;meta charset=&quot;utf-8&quot;&gt;
+</span><span class="token prefix unchanged"> </span><span class="token line">   &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+</span><span class="token prefix unchanged"> </span><span class="token line">   &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1.0&quot;&gt;
+</span><span class="token prefix unchanged"> </span><span class="token line">   &lt;link rel=&quot;icon&quot; href=&quot;&lt;%= BASE_URL %&gt;favicon.ico&quot;&gt;
+</span><span class="token prefix unchanged"> </span><span class="token line">   &lt;title&gt;&lt;%= htmlWebpackPlugin.options.title %&gt;&lt;/title&gt;
+</span><span class="token prefix unchanged"> </span><span class="token line"> &lt;/head&gt;
+</span><span class="token prefix unchanged"> </span><span class="token line"> &lt;body&gt;
+</span><span class="token prefix unchanged"> </span><span class="token line">   &lt;noscript&gt;
+</span><span class="token prefix unchanged"> </span><span class="token line">     &lt;strong&gt;We're sorry but &lt;%= htmlWebpackPlugin.options.title %&gt; doesn't work properly without JavaScript enabled. Please enable it to continue.&lt;/strong&gt;
+</span><span class="token prefix unchanged"> </span><span class="token line">   &lt;/noscript&gt;
+</span><span class="token prefix unchanged"> </span><span class="token line">   &lt;div id=&quot;app&quot;&gt;&lt;/div&gt;
+</span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/artitalk&quot;&gt;&lt;/script&gt;
+</span></span><span class="token unchanged"><span class="token prefix unchanged"> </span><span class="token line"> &lt;/body&gt;
+</span></span><span class="token deleted-arrow deleted"><span class="token prefix deleted">&lt;</span><span class="token line">/html&gt;
+</span></span></code></pre></div></div> <p>新建 <code>src/components/Artitalk.vue</code>（VuePress: <code>.vuepress/components/Artitalk.vue</code>），添加以下内容</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>artitalk_main<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
 
@@ -134,7 +151,7 @@ export default {
 </code></pre></div><p><ins data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-9420537843748923" data-ad-slot="8405286900" class="adsbygoogle" style="display:block;"></ins> <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script></p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div> <div class="footer" data-v-35b17a59><div id="footer-info" data-v-35b17a59><div class="footer-left" data-v-35b17a59>
-      © 2020
+      © 2020-2021
       <span data-v-35b17a59>Powered by <a href="https://github.com/ArtitalkJS/Artitalk" target="_blank">Artitalk</a></span></div> <div class="footer-right" data-v-35b17a59>Theme:<a href="https://github.com/JoeyBling/vuepress-theme-yilia-plus" target="_blank">vuepress-theme-yilia-plus</a> by Litten</div></div> <div class="busuanzi" data-v-35b17a59><span id="busuanzi_container_site_pv" style="display:none">
     本站总访问量
     <span id="busuanzi_value_site_pv"></span>次
@@ -142,6 +159,6 @@ export default {
     本站访客数
     <span id="busuanzi_value_site_uv"></span>人
   </span></div></div></main><div class="global-ui"></div></div>
-    <script src="/assets/js/app.60d7ced6.js" defer></script><script src="/assets/js/2.12027dbf.js" defer></script><script src="/assets/js/10.b08b34a1.js" defer></script>
+    <script src="/assets/js/app.858b68df.js" defer></script><script src="/assets/js/2.12027dbf.js" defer></script><script src="/assets/js/10.f0a5646f.js" defer></script>
   </body>
 </html>
