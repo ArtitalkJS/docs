@@ -29,7 +29,7 @@ sidebar: auto
 | YFun's Blog | [说说](https://www.yfun.top/talk/) | Hexo | [fluid](https://github.com/fluid-dev/hexo-theme-fluid) |
 | Weidows | [⭐ 陈茶酱醋 ⭐](https://weidows.github.io/artitalk/older_artitalk) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | Langkye | [说说](https://langkye.gitee.io/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
-
+| Ariescat | [哔哔](https://ariescat.top/bibi/) | Jekyll | [Hux](https://github.com/Huxpro/huxpro.github.io) |
 
 ## 如何加入成功案例
 
