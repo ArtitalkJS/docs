@@ -27,6 +27,8 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 ### [gridea-theme-dark](https://github.com/jalenchuh/gridea-theme-dark)
 
+### [hexo-theme-MengD](https://github.com/lete114/hexo-theme-mengd/)
+
 ## 🚀 开始使用
 
 ### 🌈 LeanCloud 的相关准备
