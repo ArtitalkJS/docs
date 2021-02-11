@@ -10,8 +10,8 @@ sidebar: auto
 <!-- 第一种 -->
 <script>
 new Artitalk({
-      appId: 'Your leancloud appId',
-      appKey: 'Your leancloud appKey',
+      appId: 'Your LeanCloud appId',
+      appKey: 'Your LeanCloud appKey',
 })
 </script>
 
@@ -19,8 +19,8 @@ new Artitalk({
 <script>
 var at = new Artitalk();
 at.init({
-      appId: 'Your leancloud appId',
-      appKey: 'Your leancloud appKey',      
+      appId: 'Your LeanCloud appId',
+      appKey: 'Your LeanCloud appKey',      
 })
 </script>
 ```

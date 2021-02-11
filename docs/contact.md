@@ -31,6 +31,7 @@ QQ 邮箱：Uncle_drew@qq.com
 打赏列表
 | 昵称 | 金额 | 留言 |
 | ---- | ---- | ---- |
+| *疚 | 8.88 | 加油，artitalk! |
 | *哼 | 6.66 | 感谢artitalk~，很好用 |
 | Ayan | 6.66 | AT.nb！ |
 
