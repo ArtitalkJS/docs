@@ -9,12 +9,13 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 ### 🎉 特性
 
 * 增删查改全方面支持
-* 支持针对每天说说的评论
+* 支持针对每条说说的评论
 * 支持 Markdown/html 语法
+* 支持图片上传
 
 ## 🚀 快速使用
 
-部分主题已将本项目整合进去，可以直接使用。
+下列主题已将本项目整合进去，可以直接使用。
 感谢以下主题对本项目的支持~
 
 ### [hexo-theme-volantis](https://github.com/xaoxuu/hexo-theme-volantis/)
@@ -33,6 +34,10 @@ GitHub 仓库：[Artitalk.js](https://github.com/ArtitalkJS/Artitalk)
 
 :::tip 🌍 建议使用国际版的 LeanCloud
 因为国际版的 leancloud 不需要配置 serverurl，所以推荐使用国际版，速度没有区别，如果使用国内版的 leancloud 别忘了填写 serverurl 即可
+:::
+
+:::tip 👀 与valine在同一页面使用
+如果有这个需要，可以将 artitalk 与 valine 存放在同一个应用中。可以有效避免同一个页面使用两个leancloud应用所产生的冲突。
 :::
 
 1. 前往 [LeanCloud 国际版](https://LeanCloud.app/)，注册账号。
