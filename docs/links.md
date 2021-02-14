@@ -30,7 +30,7 @@ sidebar: auto
 | Weidows | [⭐ 陈茶酱醋 ⭐](https://weidows.github.io/artitalk/older_artitalk) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | Langkye | [说说](https://langkye.gitee.io/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | Ariescat | [哔哔](https://ariescat.top/bibi/) | Jekyll | [Hux](https://github.com/Huxpro/huxpro.github.io) |
-
+| 五笔小筑 | [说说](https://wubi98.gitee.io/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 ## 如何加入成功案例
 
 编辑 [成功案例](https://github.com/ArtitalkJS/docs/edit/master/docs/links.md)，在上面表格添加然后 PR，请自觉往下填写
