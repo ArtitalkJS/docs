@@ -31,6 +31,7 @@ sidebar: auto
 | Langkye | [说说](https://langkye.gitee.io/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | Ariescat | [哔哔](https://ariescat.top/bibi/) | Jekyll | [Hux](https://github.com/Huxpro/huxpro.github.io) |
 | 五笔小筑 | [说说](https://wubi98.gitee.io/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
+| CCAI | [Twitter](https://iccai.tk/twitter/) | Hexo | [Magnetic](https://github.com/klugjo/hexo-theme-magnetic/) |
 ## 如何加入成功案例
 
 编辑 [成功案例](https://github.com/ArtitalkJS/docs/edit/master/docs/links.md)，在上面表格添加然后 PR，请自觉往下填写
