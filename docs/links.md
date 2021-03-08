@@ -32,6 +32,8 @@ sidebar: auto
 | Ariescat | [哔哔](https://ariescat.top/bibi/) | Jekyll | [Hux](https://github.com/Huxpro/huxpro.github.io) |
 | 五笔小筑 | [说说](https://wubi98.gitee.io/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | CCAI | [Twitter](https://iccai.tk/twitter/) | Hexo | [Magnetic](https://github.com/klugjo/hexo-theme-magnetic/) |
+| Fl0w3r | [Artitalk](https://yousazoe.top/artitalk/) | Hexo | [NexT](https://github.com/theme-next/hexo-theme-next/) |
+
 ## 如何加入成功案例
 
 编辑 [成功案例](https://github.com/ArtitalkJS/docs/edit/master/docs/links.md)，在上面表格添加然后 PR，请自觉往下填写
