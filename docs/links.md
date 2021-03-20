@@ -11,7 +11,7 @@ sidebar: auto
 
 | 博主 | 链接 | 框架 |主题 |
 | ---- | ---- | ---- | ---- |
-| Colsrch | [主创说](https://colsrch.cn/Creator-said/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
+| Colsrch | [闲言碎语](https://colsrch.cn/shuoshuo/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
 | Flexiston | [说说](https://blog.flesx.cn/say/) | Hexo | [Cards](https://github.com/ChrAlpha/hexo-theme-cards) |
 | Ray | [闲言碎语](https://raycoder.me/shuoshuo/) | Hugo | [Tony](https://github.com/ThemeTony/hugo-theme-tony) |
 | 笨蛋海绵 | [唠嗑](https://qzkyl.ml/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
