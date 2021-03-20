@@ -33,6 +33,8 @@ sidebar: auto
 | 五笔小筑 | [说说](https://wubi98.gitee.io/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | CCAI | [Twitter](https://iccai.tk/twitter/) | Hexo | [Magnetic](https://github.com/klugjo/hexo-theme-magnetic/) |
 | Fl0w3r | [Artitalk](https://yousazoe.top/artitalk/) | Hexo | [NexT](https://github.com/theme-next/hexo-theme-next/) |
+| starrywintersky | [说说](http://wintersky.xyz/shuoshuo/) | Hexo | [NexT](https://github.com/theme-next/hexo-theme-next/) |
+| starrywintersky | [备忘录](http://wintersky.xyz/privatenotes/) | Hexo | [NexT](https://github.com/theme-next/hexo-theme-next/) |
 
 ## 如何加入成功案例
 
