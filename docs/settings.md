@@ -157,7 +157,9 @@ JS 自带三套表情包（贴吧，bilibili小电视，QQ），分四页，最�
 CloudFlareWorker针对免费用户提供了每天10w次的调用方式,并且随时能够开启UnderAttack防刷.
 
 1.新建一个Worker，将[`ArtitalkSafe.worker.js`](https://raw.githubusercontent.com/ArtitalkJS/Artitalk/master/ArtitalkSafe.worker.js)里面的内容复制到里面
+
 2.退出，设置两个变量`APPID`和`APPKEY`[变量名务必大写]
+
 3.修改配置项为:
 
 ```html
@@ -170,6 +172,7 @@ new Artitalk({
 </script>
 ```
 4.现在,无论是查开源代码还是拦截网络请求,都将看不到AppKey和AppId.一旦被刷,你可以手动打开5秒盾防刷
+
 5.高级变量配置
 
 - `SERVERDOMAIN` 通常来讲,Artitalk的API地址是`AppId前八位小写.api.lncldglobal.com`,但是自定义域名、国内版LeanCloud或者特殊情况不是这样子的,请新建一个变量名为`SERVERDOMAIN`,内容为自定义域名
