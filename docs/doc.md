@@ -221,6 +221,12 @@ export default {
 </script>
 ```
 
+## 🚀 安全性
+
+由于 leancloud 的机制，应用的 Appid 以及 Appkey 均会暴漏在前端，可能会遭受到其他人的恶意攻击。
+如果你在担心这个问题，你可以使用[Artitalk_SafeMode](/settings.html/Artitalk_SafeMode)
+
+
 ## 🕸 使用 cdn
 
 ### 🕸 UNPKG
