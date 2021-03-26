@@ -179,6 +179,9 @@ new Artitalk({
 - `ATCOMMENT` 中间件评论防护,填写为`false`则彻底禁用Artitalk自带评论系统
 - `CORS` 跨域拦截,可以有效避免恶意外战请求,默认为`*`
 
+6.题外话
+
+[HexoPlusPlus](https://hexoplusplus.js.org)将在1.3.0支持此功能
 
 <ins class="adsbygoogle"
      style="display:block"
