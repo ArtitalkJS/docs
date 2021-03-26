@@ -48,6 +48,7 @@ QQ 邮箱：Uncle_drew@qq.com
 * html5up：demo 页框架
 * valine: 一款简便并实用的评论系统，看了valine的代码，受益匪浅，Respect
 * 去不图床：js内部上传图片（视频）的存储以及cdn加速
+* ChenYFan && MHuiG - MiniValine: Artitalk_SafeMode，保障了artitalk用户的安全
 
 <ins class="adsbygoogle"
      style="display:block"
