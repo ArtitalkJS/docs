@@ -145,14 +145,14 @@ JS 自带三套表情包（贴吧，bilibili小电视，QQ），分四页，最�
 </script>
 ```
 
-# Artitalk_SafeMode
+## Artitalk_SafeMode
 
 **Artitalk_SafeMode**通过中间件的方式,在中间件替换APPID和APPKEY保护两者,避免两者暴露被刷
 
 使用Artitalk_SafeMode,请在前端随意伪造APPID和APPKEY,然后将serverurl修改为中间件网址即可
 
 
-## 👍CloudFlareWorker
+### 👍CloudFlareWorker
 
 CloudFlareWorker针对免费用户提供了每天10w次的调用方式,并且随时能够开启UnderAttack防刷.
 
