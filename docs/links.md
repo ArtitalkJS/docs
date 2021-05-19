@@ -36,6 +36,7 @@ sidebar: auto
 | starrywintersky | [说说](http://wintersky.xyz/shuoshuo/) | Hexo | [NexT](https://github.com/theme-next/hexo-theme-next/) |
 | starrywintersky | [备忘录](http://wintersky.xyz/privatenotes/) | Hexo | [NexT](https://github.com/theme-next/hexo-theme-next/) |
 | ClariS | [说说](https://silkyheart.moe/talk/) | Hexo | [Shoka](https://github.com/amehime/hexo-theme-shoka) |
+| Dongzhi.| [自言自语](https://xiaocq.top/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 
 ## 如何加入成功案例
 
