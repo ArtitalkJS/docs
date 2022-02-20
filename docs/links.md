@@ -38,6 +38,7 @@ sidebar: auto
 | ClariS | [说说](https://silkyheart.moe/talk/) | Hexo | [Shoka](https://github.com/amehime/hexo-theme-shoka) |
 | Dongzhi.| [自言自语](https://xiaocq.top/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | Jason | [说说&日常](https://fictory.cn/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
+| 洛竹的博客 | [说说](https://youngjuning.js.org/talk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 
 ## 如何加入成功案例
 
