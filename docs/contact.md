@@ -31,6 +31,7 @@ QQ 邮箱：Uncle_drew@qq.com
 | Ayan | 6.66 | AT.nb！ |
 | *禾 | 8.88 | 聊表心意，大佬加油！ |
 | *L | 8.88 | 加油，artitalk！ |
+| Georgel | 66.6 | 加油，artitalk！ |
 
 如果有小伙伴准备打赏，可以在备注中写上自己想对artitalk或者artitalk开发者说的一句话（当然也可以是自己的博客链接等）
 
