@@ -248,7 +248,7 @@ export default {
 <script type="text/javascript" src="https://unpkg.com/artitalk@版本号/artitalk.js"></script>
 ```
 
-### 🕸 JsDelivr
+### 🕸 JsDelivr（国内无法使用！！！）
 
 #### ⭐ 获取最新
 
