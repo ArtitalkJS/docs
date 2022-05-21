@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://cdn.jsdelivr.net/gh/drew233/cdn/logol.png
+heroImage: https://s1.ax1x.com/2022/05/22/OvT2X4.png
 actionText: 使用文档 →
 actionLink: /doc/
 features:
