@@ -39,7 +39,7 @@ sidebar: auto
 | Dongzhi.| [自言自语](https://xiaocq.top/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | Jason | [说说&日常](https://fictory.cn/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | 洛竹的博客 | [说说](https://youngjuning.js.org/talk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
-
+| XinranLee | [朋友圈](https://xinran-lee.github.io/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
 ## 如何加入成功案例
 
 编辑 [成功案例](https://github.com/ArtitalkJS/docs/edit/master/docs/links.md)，在上面表格添加然后 PR，请自觉往下填写
