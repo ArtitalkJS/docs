@@ -22,20 +22,25 @@ QQ 邮箱：Uncle_drew@qq.com
 ## 捐赠
 
 如果觉得本项目对你有帮助，并且愿意鼓励我，欢迎打赏~谢谢你的支持
-打赏的时候请进行备注“Artitalk”
 
-|  支付宝   | 微信  |
-|  ----  | ----  |
-| <img width="135" src="https://cdn.jsdelivr.net/gh/drew233/cdn/zhifupay.jpg"> | <img width="135" src="https://cdn.jsdelivr.net/gh/drew233/cdn/weixinpay.png"> |
-
-打赏列表
+打赏列表，感谢下列小伙伴的支持
 | 昵称 | 金额 | 留言 |
 | ---- | ---- | ---- |
 | *疚 | 8.88 | 加油，artitalk! |
 | *哼 | 6.66 | 感谢artitalk~，很好用 |
 | Ayan | 6.66 | AT.nb！ |
+| *禾 | 8.88 | 聊表心意，大佬加油！ |
+| *L | 8.88 | 加油，artitalk！ |
+| Georgel | 66.6 | 加油，artitalk！ |
 
-如果你对本项目感兴趣并且有心一起完善功能的，欢迎pr~
+如果有小伙伴准备打赏，可以在备注中写上自己想对artitalk或者artitalk开发者说的一句话（当然也可以是自己的博客链接等）
+
+|  支付宝   | 微信  |
+|  ----  | ----  |
+| <img width="135" src="https://cdn.jsdelivr.net/gh/drew233/cdn/zhifupay.jpg"> | <img width="135" src="https://cdn.jsdelivr.net/gh/drew233/cdn/weixinpay.png"> |
+
+
+如果你对本项目感兴趣并且有心一起完善功能的，欢迎pr或提出issue
 
 ## 👍 特别鸣谢
 

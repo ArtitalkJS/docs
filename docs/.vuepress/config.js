@@ -4,7 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `https://cdn.jsdelivr.net/gh/drew233/cdn/atico.png` }],
     ['script', { data_ad_client: "ca-pub-9420537843748923", async: true, src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" }],
-    ['script', {  src: "https://cdn.jsdelivr.net/npm/artitalk" }],
+    ['script', { src: "https://unpkg.com/artitalk" }],
   ],
   output: {
     globalObject: 'this'

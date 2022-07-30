@@ -120,6 +120,36 @@ JS 自带三套表情包（贴吧，bilibili小电视，QQ），分四页，最�
 * 可选项：0（关闭），1（开启）
 * 参数类型: `Boolean`
 
+### 📌blackAndWhiteTheme
+
+* 功能：黑白色主题（类似于 [LeoLoveDairy](https://leolovedairy.life/ltalk/) 的风格）
+* 默认值：0（关闭）
+* 可选项：0（关闭），1（开启）
+* 参数类型: `Boolean`
+
+### 📌onLogin
+
+* 功能：登录成功后的回调
+* 默认值：无
+* 回调参数：`loggedInUserName: String`（当前用户的名称）
+* 参数类型: `function`
+
+### 📌onShuoPublished
+
+* 功能：说说发布成功后的回调
+* 可能的使用场景：成功发布说说后通知订阅者、发布成功后添加自定义操作或动画等
+* 默认值：无
+* 回调参数：`userName: String, shuoshuoContent: String`（发布的用户名称，说说的 Markdown 内容）
+* 参数类型: `function`
+
+### 📌onCommentsPublished
+
+* 功能：评论发布成功后的回调
+* 可能的使用场景：成功发布评论后通知订阅者、“@” 某用户后向其发送邮件、发布成功后添加自定义操作或动画等
+* 默认值：无
+* 回调参数：`userName: String, commentsContent: String`（发布的用户名称，评论的 Markdown 内容）
+* 参数类型: `function`
+
 ## 配置项填写示例
 
 ```html
@@ -141,18 +171,32 @@ JS 自带三套表情包（贴吧，bilibili小电视，QQ），分四页，最�
                   fadai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fadai.png",
                   fanu: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fanu.png",
             },
+            onLogin: function(user) {
+                console.log("Login !");
+                console.log(`User: ${user}`)
+            },
+            onShuoPublished: function(user, content) {
+                console.log("Shuo Published !");
+                console.log(`User: ${user}`);
+                console.log(`Content: ${content}`);
+            },
+            onCommentsPublished: function(user, content) {
+                console.log("Comments Published !");
+                console.log(`User: ${user}`);
+                console.log(`Content: ${content}`);
+            }
       })
 </script>
 ```
 
-# Artitalk_SafeMode
+## Artitalk_SafeMode
 
 **Artitalk_SafeMode**通过中间件的方式,在中间件替换APPID和APPKEY保护两者,避免两者暴露被刷
 
 使用Artitalk_SafeMode,请在前端随意伪造APPID和APPKEY,然后将serverurl修改为中间件网址即可
 
 
-## 👍CloudFlareWorker
+### 👍CloudFlareWorker
 
 CloudFlareWorker针对免费用户提供了每天10w次的调用方式,并且随时能够开启UnderAttack防刷.
 

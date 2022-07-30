@@ -26,7 +26,7 @@ jobs:
       run: npm install -g vuepress
 
     - name: Install Dependencies
-      run: npm install
+      run: npm ci
 
     - name: Generate Static Files
       run: npm run docs:build

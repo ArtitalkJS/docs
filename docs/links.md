@@ -11,7 +11,7 @@ sidebar: auto
 
 | 博主 | 链接 | 框架 |主题 |
 | ---- | ---- | ---- | ---- |
-| Colsrch | [主创说](https://colsrch.cn/Creator-said/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
+| Colsrch | [闲言碎语](https://colsrch.cn/shuoshuo/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
 | Flexiston | [说说](https://blog.flesx.cn/say/) | Hexo | [Cards](https://github.com/ChrAlpha/hexo-theme-cards) |
 | Ray | [闲言碎语](https://raycoder.me/shuoshuo/) | Hugo | [Tony](https://github.com/ThemeTony/hugo-theme-tony) |
 | 笨蛋海绵 | [唠嗑](https://qzkyl.ml/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
@@ -21,15 +21,24 @@ sidebar: auto
 | 杜老师说 | [说说](https://dusays.com/shuoshuo/) | Hexo | [Volantis](https://github.com/penndu/hexo-theme-volantis) |
 | Lete乐特 | [唠叨唠叨](https://yilia.lete114.top/say/) | Hexo | [Yilia-Pro](https://github.com/lete114/hexo-theme-yilia-pro) |
 | Small-Rose | [说说](https://notes.zhangxiaocai.cn/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
-| Uki-HG | [说说](https://ishya.top/say/) | Hexo | [Next]() |
+| Uki-HG | [说说](https://ishya.top/) | - | - |
 | 凡尘纪 | [说说](https://hesifan.top/artitalk/) | Hexo | [Matery](https://github.com/blinkfox/hexo-theme-matery) |
-| FMKLI | [说说](https://blog.fmkli.ga/say) | Hexo | [stun](https://github.com/liuyib/hexo-theme-stun/) |
+| FMKLI的瞎写博客 | [Say](https://fmkli.js.org/blog/say/) | Jekyll | [Minima](https://github.com/jekyll/minima) |
 | Ender's Blog | [说说](https://code004accepted.github.io/shuoshuo/) | Hexo | [Volantis](https://github.com/volantis-x/hexo-theme-volantis) |
 | Qingxu | [说说](https://blog.qingxu.live/talk/) | Hugo | [hello-friend](https://github.com/panr/hugo-theme-hello-friend) |
 | YFun's Blog | [说说](https://www.yfun.top/talk/) | Hexo | [fluid](https://github.com/fluid-dev/hexo-theme-fluid) |
 | Weidows | [⭐ 陈茶酱醋 ⭐](https://weidows.github.io/artitalk/older_artitalk) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | Langkye | [说说](https://langkye.gitee.io/shuoshuo/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | Ariescat | [哔哔](https://ariescat.top/bibi/) | Jekyll | [Hux](https://github.com/Huxpro/huxpro.github.io) |
+| 五笔小筑 | [说说](https://wubi98.gitee.io/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
+| CCAI | [Twitter](https://iccai.tk/twitter/) | Hexo | [Magnetic](https://github.com/klugjo/hexo-theme-magnetic/) |
+| Fl0w3r | [Artitalk](https://yousazoe.top/artitalk/) | Hexo | [NexT](https://github.com/theme-next/hexo-theme-next/) |
+| starrywintersky | [说说](http://wintersky.xyz/shuoshuo/) | Hexo | [NexT](https://github.com/theme-next/hexo-theme-next/) |
+| starrywintersky | [备忘录](http://wintersky.xyz/privatenotes/) | Hexo | [NexT](https://github.com/theme-next/hexo-theme-next/) |
+| ClariS | [说说](https://silkyheart.moe/talk/) | Hexo | [Shoka](https://github.com/amehime/hexo-theme-shoka) |
+| Dongzhi.| [自言自语](https://xiaocq.top/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
+| Jason | [说说&日常](https://fictory.cn/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
+| 洛竹的博客 | [说说](https://youngjuning.js.org/talk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 
 ## 如何加入成功案例
 
