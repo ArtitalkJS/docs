@@ -39,6 +39,7 @@ sidebar: auto
 | Dongzhi.| [自言自语](https://xiaocq.top/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | Jason | [说说&日常](https://fictory.cn/artitalk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
 | 洛竹的博客 | [说说](https://youngjuning.js.org/talk/) | Hexo | [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) |
+| jieis | [Hi](http://blog.jieis.cn/hi/index.html) | Hexo | [Cards](https://github.com/ChrAlpha/hexo-theme-cards) |
 
 ## 如何加入成功案例
 
