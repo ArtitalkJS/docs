@@ -276,3 +276,6 @@ export default {
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+#### 跨域问题
+国际版：如若出现跨域问题，请绑定自定义域名，如若绑定自定义域名还是出现跨域问题，将结构化数据中的shuoshuo列表权限全部改成所有用户
